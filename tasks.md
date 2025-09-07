@@ -491,298 +491,276 @@ This document provides a comprehensive, phased approach for developing an enterp
 
 ---
 
-## Phase 2: User Management & Security Features (5-6 days)
+## Phase 2: User Management & Security
 
-### 2.1 Profile Management (Day 1)
+**Status:** ✅ **COMPLETED**
+**Duration:** 5-6 days
+**Goal:** Complete user profile management and RBAC implementation
 
-#### Morning (4 hours)
-- [ ] **Profile Settings Page (`/settings/profile`)**
-  - Personal information section: `first_name`, `last_name`, `email` (read-only)
-  - Profile details: `display_name`, `bio`, `phone`, `website`, `company`, `job_title`
-  - Profile picture upload with preview and crop functionality
-  - Organizer slug display (read-only, auto-generated)
-  - Form validation using `profileUpdateSchema`
-  - Optimistic updates with error rollback
+This phase implements comprehensive user management features including profile management, role-based access control, multi-factor authentication, single sign-on, and security features. All backend models and endpoints are fully integrated.
 
-#### Afternoon (4 hours)
-- [ ] **Localization Settings (within Profile)**
-  - Timezone selection with search and grouping by region
-  - Language selection with flag icons
-  - Date format preferences with live preview
-  - Time format preferences (12h/24h) with live preview
-  - Multi-invitee scheduling settings: `reasonable_hours_start`, `reasonable_hours_end`
+#### 2.1 User Profile Management
 
-- [ ] **Branding Settings (within Profile)**
-  - Brand color picker with preset colors and custom hex input
-  - Brand logo upload with size validation
-  - Live preview of branding changes
-  - Privacy settings: `public_profile`, `show_phone`, `show_email`
+- [x] **Profile Page (`/profile`):**
+  - [x] Display user's `first_name`, `last_name`, `email`
+  - [x] Display and allow editing of `Profile` fields: `display_name`, `bio`, `phone`, `website`, `company`, `job_title`
+  - [x] Implement profile picture upload and display
+  - [x] Handle `brand_color` selection with color picker
+  - [x] Configure `timezone_name`, `language`, `date_format`, `time_format`
+  - [x] Manage privacy settings: `public_profile`, `show_phone`, `show_email`
+  - [x] Configure `reasonable_hours_start`, `reasonable_hours_end` for multi-invitee scheduling
+  - [x] Integrate `profileUpdateSchema` for form validation
 
-### 2.2 Role-Based Access Control (Day 2)
-
-#### Morning (4 hours)
-- [ ] **User Management Dashboard (`/admin/users`)**
-  - Paginated table of all users with advanced filtering
-  - Columns: `email`, `full_name`, `account_status`, `is_email_verified`, `is_mfa_enabled`, `roles`, `last_login`, `date_joined`
-  - Search by name, email
-  - Filter by `account_status`, `is_email_verified`, `is_mfa_enabled`
-  - Bulk actions: activate, deactivate, send verification email
-  - Export user list to CSV
-
-#### Afternoon (4 hours)
-- [ ] **User Detail Page (`/admin/users/[id]`)**
-  - Complete user profile display
-  - Account status management with confirmation modals
-  - Role assignment/removal interface
-  - Password reset initiation
-  - Account locking/unlocking
-  - MFA reset functionality
-  - User session management
-  - Audit log display for the user
-
-### 2.3 Role & Permission Management (Day 3)
-
-#### Morning (4 hours)
-- [ ] **Role Management Page (`/admin/roles`)**
-  - List all roles with hierarchy visualization
-  - Show `name`, `role_type`, `parent`, `permission_count`, `user_count`
-  - Create new role form with parent role selection
-  - Role hierarchy tree view
-  - Prevent editing/deleting system roles
-
-#### Afternoon (4 hours)
-- [ ] **Role Detail & Permission Assignment (`/admin/roles/[id]`)**
-  - Role information editing
-  - Permission assignment interface with categories
-  - Permission inheritance visualization from parent roles
-  - User assignment to roles
-  - Role deletion with dependency checks
-
-- [ ] **Permission Catalog (`/admin/permissions`)**
-  - Categorized view of all available permissions
-  - Search and filter by category
-  - Permission usage statistics (which roles use each permission)
-
-### 2.4 Team Management & Invitations (Day 4)
-
-#### Morning (4 hours)
-- [ ] **Team Members Page (`/team`)**
-  - List all team members with their roles
-  - Invitation status tracking
-  - Member activity overview
-  - Quick actions: edit role, remove member, resend invitation
-
-#### Afternoon (4 hours)
-- [ ] **Invitation Management (`/team/invitations`)**
-  - Send invitation form with role selection and personal message
-  - Track invitation status: pending, accepted, declined, expired
-  - Resend expired invitations
-  - Bulk invitation functionality
-
-- [ ] **Invitation Response Page (`/invitation?token=[token]`)**
-  - Accept/decline invitation interface
-  - New user registration flow for accepted invitations
-  - Role information display
-  - Terms acceptance for new users
-
-### 2.5 Multi-Factor Authentication (Day 5)
-
-#### Morning (4 hours)
-- [ ] **MFA Settings Page (`/settings/security/mfa`)**
-  - Current MFA status display
-  - List of registered MFA devices
-  - Device management (activate, deactivate, remove)
-  - Primary device designation
-
-#### Afternoon (4 hours)
-- [ ] **MFA Setup Wizard**
-  - Device type selection (TOTP, SMS)
-  - TOTP setup: QR code generation and display, manual entry key
-  - SMS setup: phone number input and verification
-  - OTP verification step
-  - Backup codes generation and display
-  - Setup completion confirmation
-
-- [ ] **MFA Login Flow Integration**
-  - MFA challenge page after initial login
-  - TOTP code input
-  - SMS code request and input
-  - Backup code input option
-  - Device selection for multiple MFA devices
-
-### 2.6 Security Features (Day 6)
-
-#### Morning (4 hours)
-- [ ] **Password Management**
-  - **Change Password Page (`/settings/security/password`)**
-    - Current password verification
-    - New password with strength indicator
-    - Password history validation
-    - Success confirmation with session management
-  
-  - **Forced Password Change (`/force-password-change`)**
-    - Special page for expired passwords
-    - Grace period information display
-    - Mandatory password update flow
-
-#### Afternoon (4 hours)
-- [ ] **Session Management (`/settings/security/sessions`)**
-  - Active sessions list with device information
-  - Location data (country, city) from IP geolocation
-  - Session revocation functionality
-  - Current session highlighting
-  - Bulk session termination
-
-- [ ] **Audit Logs (`/settings/security/audit`)**
-  - Personal audit log display
-  - Action filtering and search
-  - Export audit data
-  - Security event highlighting
+- [x] **Public Profile Page (`/[organizer_slug]`):**
+  - [x] Display public profile information based on `public_profile` settings
+  - [x] Show a list of public `EventType`s for the organizer
 
 ---
 
-## Phase 3: Event Type Management System (4-5 days)
+#### 2.2 Role-Based Access Control (RBAC)
 
-### 3.1 Event Type Foundation (Day 1)
+- [x] **User Management Page (`/admin/users`):** (Requires `can_view_users` permission)
+  - [x] Display paginated table of all `User`s with key fields
+  - [x] Implement search and filtering by `account_status`
+  - [x] Show `email`, `first_name`, `last_name`, `account_status`, `is_email_verified`, `is_mfa_enabled`, assigned `roles`
+  - [x] Allow bulk operations: activate, deactivate, send verification email
+  - [x] Implement bulk operations for user management
+  - [x] Integrate with `userUpdateSchema` for validation
 
-#### Morning (4 hours)
-- [ ] **Event Types List Page (`/event-types`)**
-  - Grid/list view toggle
-  - Event type cards showing: `name`, `duration`, `location_type`, `max_attendees`, `is_active`, `is_private`
-  - Quick stats: total bookings, conversion rate
-  - Search and filtering by `name`, `duration`, `location_type`, `is_active`
-  - Sorting options: name, created date, popularity
-  - Bulk actions: activate, deactivate, duplicate, delete
+- [x] **User Detail Page (`/admin/users/[id]`):**
+  - [x] Display full user details including profile information
+  - [x] Allow editing user `account_status` (active, suspended, etc.)
+  - [x] Allow assigning/unassigning `Role`s to users (requires `can_manage_roles` permission)
+  - [x] Show user's `Profile` information and allow editing
+  - [x] Display user's `UserSession`s and allow revoking sessions
+  - [x] Show security status (email verified, MFA enabled, etc.)
+  - [x] Display audit logs and active sessions
 
-#### Afternoon (4 hours)
-- [ ] **Event Type Creation Wizard (`/event-types/create`)**
-  - **Step 1: Basic Information**
-    - `name` input with slug preview
-    - `description` textarea with character count
-    - `duration` selection from predefined options
-    - `max_attendees` with group event explanation
-    - `enable_waitlist` toggle with explanation
-  - Navigation between steps with progress indicator
-  - Form validation using `eventTypeCreateSchema`
+- [x] **Role Management Page (`/admin/roles`):** (Requires `can_manage_roles` permission)
+  - [x] Display list of all `Role`s with `name`, `role_type`, `parent`, `permission_count`
+  - [x] Allow creating new custom `Role`s
+  - [x] Allow editing `Role`s (name, description, `role_type`, `parent`, `role_permissions`)
+  - [x] Show role hierarchy and inheritance
+  - [x] Prevent editing `is_system_role` fields
+  - [x] Integrate with `roleCreateSchema` for validation
 
-### 3.2 Advanced Event Configuration (Day 2)
+- [x] **Permission List Page (`/admin/permissions`):** (Requires `can_view_admin` permission)
+  - [x] Display read-only list of all available `Permission`s
+  - [x] Show `codename`, `name`, `description`, `category`
+  - [x] Implement search and filtering by category
+  - [x] Group permissions by category for better organization
 
-#### Morning (4 hours)
-- [ ] **Event Type Creation Wizard (Continued)**
-  - **Step 2: Scheduling Rules**
-    - `min_scheduling_notice` with time unit selection
-    - `max_scheduling_horizon` with time unit selection
-    - `buffer_time_before` and `buffer_time_after` selection
-    - `max_bookings_per_day` with unlimited option
-    - `slot_interval_minutes` selection
-  
-  - **Step 3: Location & Meeting**
-    - `location_type` selection with icons and descriptions
-    - `location_details` input (conditional based on type)
-    - Video conferencing integration preview
+- [x] **Invitation Management Page (`/invitations`):**
+  - [x] Display list of sent `Invitation`s with status tracking
+  - [x] Show `invited_email`, `role`, `status`, `created_at`, `expires_at`
+  - [x] Allow sending new `Invitation`s with role selection
+  - [x] Allow canceling pending invitations
+  - [x] Implement resend functionality for pending invitations
+  - [x] Integrate `invitationCreateSchema` for validation
 
-#### Afternoon (4 hours)
-- [ ] **Event Type Creation Wizard (Continued)**
-  - **Step 4: Recurrence Settings**
-    - `recurrence_type` selection (none, daily, weekly, monthly)
-    - `recurrence_rule` builder for complex patterns
-    - `max_occurrences` input
-    - `recurrence_end_date` picker
-    - Visual preview of recurrence pattern
-  
-  - **Step 5: Advanced Settings**
-    - `is_private` toggle with explanation
-    - `redirect_url_after_booking` input
-    - Workflow integration selection (confirmation, reminder, cancellation)
+- [x] **Invitation Response Page (`/invitation?token=[token]`):**
+  - [x] Allow accepting or declining an `Invitation`
+  - [x] Handle token validation and expiry
+  - [x] If accepting and user doesn't exist, prompt for registration details
+  - [x] If accepting and user exists, log them in and assign role
+  - [x] Display invitation details (inviter, role, organization)
+  - [x] Integrate with user registration flow
 
-### 3.3 Custom Questions Builder (Day 3)
+---
 
-#### Morning (4 hours)
-- [ ] **Custom Questions Builder (Step 6 of Creation Wizard)**
-  - Dynamic question list with drag-and-drop reordering
-  - Add question button with type selection
-  - Question configuration form:
-    - `question_text` input
-    - `question_type` selection with icons
-    - `is_required` toggle
-    - `order` automatic management
-  - Type-specific configurations:
-    - Select/Radio: options management with add/remove
-    - Validation rules: min/max length, regex patterns
-  - Question preview functionality
+#### 2.3 Multi-Factor Authentication (MFA)
 
-#### Afternoon (4 hours)
-- [ ] **Conditional Logic Builder**
-  - Visual condition builder for question display logic
-  - Condition groups with AND/OR operators
-  - Rule configuration: field selection, operator, value
-  - Live preview of conditional logic
-  - Validation of condition structure
-  - Integration with `customQuestionSchema`
+- [x] **MFA Settings Page (`/settings/security/mfa`):**
+  - [x] Display current MFA status (`is_mfa_enabled`)
+  - [x] List registered `MFADevice`s (TOTP, SMS, Backup Codes)
+  - [x] Show device details: `device_type`, `name`, `phone_number`, `is_active`, `is_primary`
+  - [x] Allow adding new MFA devices
+  - [x] Allow managing individual MFA devices
+  - [x] Integrate with `mfaSetupSchema` and `mfaVerificationSchema`
 
-### 3.4 Event Type Management (Day 4)
+- [x] **MFA Setup Wizard:**
+  - [x] Step 1: Choose `device_type` (TOTP or SMS)
+  - [x] Step 2 (TOTP): Display QR code and manual entry key
+  - [x] Step 2 (SMS): Prompt for `phone_number` and send SMS verification
+  - [x] Step 3: Verify OTP code to complete setup
+  - [x] Step 4: Display backup codes and require acknowledgment
+  - [x] Handle all error cases and validation
+  - [x] Provide clear instructions and security warnings
 
-#### Morning (4 hours)
-- [ ] **Event Type Detail Page (`/event-types/[id]`)**
-  - Complete event type information display
-  - Quick stats: total bookings, upcoming bookings, conversion rate
-  - Public URL display with copy functionality
-  - QR code generation for easy sharing
-  - Recent bookings for this event type
+- [x] **MFA Management Features:**
+  - [x] MFA disable functionality (requires password confirmation)
+  - [x] Backup codes regeneration (requires password confirmation)
+  - [x] SMS MFA login flow integration
+  - [x] TOTP MFA login flow integration
+  - [x] Device management (activate, deactivate, remove)
+  - [x] Primary device designation
+  - [x] Integration with login flow for MFA challenges
 
-#### Afternoon (4 hours)
-- [ ] **Event Type Edit Page (`/event-types/[id]/edit`)**
-  - Pre-populated form with all current settings
-  - Same wizard structure as creation
-  - Change tracking and confirmation for significant changes
-  - Preview changes before saving
-  - Rollback functionality
+---
 
-### 3.5 Public Booking Interface (Day 5)
+#### 2.4 Single Sign-On (SSO)
 
-#### Morning (4 hours)
-- [ ] **Public Organizer Profile (`/[organizer_slug]`)**
-  - Organizer information display based on privacy settings
-  - Profile picture, bio, company, website
-  - List of public event types with descriptions
-  - Branding application (colors, logo)
-  - Mobile-responsive design
+- [x] **SSO Configuration Pages (`/admin/sso/saml`, `/admin/sso/oidc`):** (Requires `can_manage_sso` permission)
+  - [x] Display lists of `SAMLConfiguration` and `OIDCConfiguration`
+  - [x] Allow creating/editing configurations with all relevant fields
+  - [x] Handle `entity_id`, `sso_url`, `x509_cert` for SAML
+  - [x] Handle `client_id`, `client_secret`, `authorization_url`, `token_url`, `userinfo_url` for OIDC
+  - [x] Configure `attribute_mapping` for user field mapping
+  - [x] Test SSO configuration functionality
+  - [x] Implement validation for SSO configurations
+  - [x] Integrate with backend validation utilities
 
-#### Afternoon (4 hours)
-- [ ] **Public Event Type Booking Page (`/[organizer_slug]/[event_type_slug]`)**
-  - Event type information display
-  - Organizer information sidebar
-  - Timezone selection for invitee
-  - Date navigation (previous/next month)
-  - Available time slots display
-  - Real-time availability updates
-  - Loading states for slot calculation
+- [x] **SSO Login Flow:**
+  - [x] Implement domain-based SSO initiation page
+  - [x] Display available SSO providers for domain (`sso_discovery` endpoint)
+  - [x] Redirect to appropriate SSO provider's login page (`initiate_sso` endpoint)
+  - [x] Handle SSO callback and token exchange
+  - [x] Handle user provisioning and role assignment
+  - [x] Provide clear error messages for SSO failures
 
-### 3.6 Booking Form & Confirmation (Day 5 Evening + Day 6)
+- [x] **SSO Session Management (`/settings/security/sso-sessions`):**
+  - [x] Display list of active `SSOSession`s for current user
+  - [x] Show `sso_type`, `provider_name`, `ip_address`, `created_at`, `last_activity`
+  - [x] Allow revoking individual SSO sessions
+  - [x] Allow bulk revocation of all SSO sessions
+  - [x] Display session details and security information
+  - [x] Integrate with SSO logout functionality
 
-#### Day 5 Evening (2 hours)
-- [ ] **Interactive Booking Form**
-  - Time slot selection with visual feedback
-  - Invitee information form
-  - Dynamic custom questions rendering
-  - Conditional question display logic
-  - Form validation with real-time feedback
+---
 
-#### Day 6 Morning (4 hours)
-- [ ] **Booking Form (Continued)**
-  - Group event attendee management
-  - Attendee information collection
-  - Custom answers for each attendee
-  - Form submission with loading states
-  - Error handling and retry logic
+#### 2.5 Account Security & Audit
 
-#### Day 6 Afternoon (4 hours)
-- [ ] **Booking Confirmation & Management**
-  - Booking confirmation page with details
-  - Calendar integration buttons (Add to Google Calendar, Outlook)
-  - Booking management interface for invitees
-  - Cancellation and rescheduling flows
-  - Waitlist handling for full events
+- [x] **Password Management:**
+  - [x] Change Password Page (`/settings/security/change-password`)
+  - [x] Forced Password Change Page (`/force-password-change`)
+  - [x] Password Reset Request Page (`/forgot-password`)
+  - [x] Password Reset Confirmation Page (`/reset-password`)
+  - [x] Password strength validation and indicators
+  - [x] Password history enforcement
+  - [x] Handle grace period scenarios
+  - [x] Integrate with all password-related backend endpoints
+
+- [x] **Email Verification Page (`/verify-email`):**
+  - [x] Display email verification status
+  - [x] Allow verifying email with token (`verify_email` endpoint)
+  - [x] Allow resending verification email (`resend_verification` endpoint)
+  - [x] Display verification instructions and guidance
+  - [x] Handle expired tokens and error cases
+  - [x] Provide clear user guidance
+
+- [x] **User Sessions Page (`/settings/security/sessions`):**
+  - [x] Display list of active `UserSession`s for current user
+  - [x] Show `ip_address`, `location`, `device_info`, `last_activity`
+  - [x] Allow revoking individual sessions
+  - [x] Allow bulk revocation of all sessions except current
+  - [x] Display session security information
+  - [x] Handle current session protection
+  - [x] Integrate with session management backend endpoints
+
+- [x] **Audit Logs Page (`/settings/security/audit-logs`):**
+  - [x] Display paginated table of `AuditLog` entries for current user
+  - [x] Show `action`, `description`, `ip_address`, `created_at`
+  - [x] Implement filtering by action type and date range
+  - [x] Allow exporting audit logs for compliance
+  - [x] Handle metadata display for complex audit entries
+  - [x] Integrate with audit log backend endpoints
+
+**Phase 2 Status:** ✅ COMPLETED
+
+---
+
+## Phase 3: Event Type Management
+
+**Status:** 🔄 In Progress
+**Duration:** 4-5 days
+**Goal:** Complete event type creation, management, and public booking interface
+
+This phase implements the comprehensive event type management system, including the creation wizard, advanced configuration options, custom questions builder, and the public booking interface.
+
+#### 3.1 Event Type Foundation
+
+- [ ] **Event Types List Page (`/event-types`):**
+  - [ ] Display grid/list view of user's `EventType`s
+  - [ ] Show `name`, `duration`, `location_type`, `max_attendees`, `is_active`, `is_private`
+  - [ ] Implement search and filtering by various criteria
+  - [ ] Show booking statistics and performance metrics
+  - [ ] Allow bulk operations: activate, deactivate, duplicate, delete
+  - [ ] Integrate with `eventTypeCreateSchema` for validation
+
+- [ ] **Event Type Creation Wizard (`/event-types/create`):**
+  - [ ] **Step 1: Basic Information**
+    - [ ] `name` input with automatic slug generation
+    - [ ] `description` textarea with rich text support
+    - [ ] `duration` selection from predefined options
+    - [ ] `max_attendees` configuration for group events
+    - [ ] `enable_waitlist` toggle for capacity management
+  - [ ] **Step 2: Scheduling Rules**
+    - [ ] `min_scheduling_notice` and `max_scheduling_horizon` configuration
+    - [ ] `buffer_time_before` and `buffer_time_after` settings
+    - [ ] `max_bookings_per_day` and `slot_interval_minutes` configuration
+  - [ ] **Step 3: Location & Meeting**
+    - [ ] `location_type` selection with integration options
+    - [ ] `location_details` configuration based on type
+    - [ ] Video conferencing integration setup
+  - [ ] **Step 4: Advanced Settings**
+    - [ ] `is_private`, `redirect_url_after_booking` configuration
+    - [ ] Workflow integration selection
+    - [ ] Recurrence settings if applicable
+
+#### 3.2 Custom Questions Builder
+
+- [ ] **Custom Questions Management:**
+  - [ ] Dynamic question builder interface
+  - [ ] Support for all `question_type` options: text, textarea, select, radio, checkbox, number, email, phone, url, date, time
+  - [ ] Question configuration: `question_text`, `is_required`, `order`
+  - [ ] Conditional logic builder for question display
+  - [ ] Question preview and testing functionality
+  - [ ] Integration with `customQuestionSchema`
+
+#### 3.3 Event Type Management
+
+- [ ] **Event Type Detail Page (`/event-types/[id]`):**
+  - [ ] Complete event type information display
+  - [ ] Booking statistics and analytics
+  - [ ] Public URL display with sharing options
+  - [ ] QR code generation for easy access
+  - [ ] Recent bookings for this event type
+
+- [ ] **Event Type Edit Page (`/event-types/[id]/edit`):**
+  - [ ] Pre-populated form with current settings
+  - [ ] Same wizard structure as creation
+  - [ ] Change tracking and confirmation
+  - [ ] Preview functionality before saving
+
+#### 3.4 Public Booking Interface
+
+- [ ] **Public Organizer Profile (`/[organizer_slug]`):**
+  - [ ] Display organizer information based on privacy settings
+  - [ ] List of public event types
+  - [ ] Branding application (colors, logo)
+  - [ ] Mobile-responsive design
+
+- [ ] **Public Event Type Booking Page (`/[organizer_slug]/[event_type_slug]`):**
+  - [ ] Event type information display
+  - [ ] Real-time availability calendar
+  - [ ] Time slot selection interface
+  - [ ] Timezone handling for invitees
+  - [ ] Integration with availability calculation
+
+#### 3.5 Booking Form & Confirmation
+
+- [ ] **Interactive Booking Form:**
+  - [ ] Invitee information collection
+  - [ ] Dynamic custom questions rendering
+  - [ ] Conditional question display logic
+  - [ ] Group event attendee management
+  - [ ] Form validation and submission
+
+- [ ] **Booking Confirmation:**
+  - [ ] Booking confirmation page
+  - [ ] Calendar integration options
+  - [ ] Booking management interface for invitees
+  - [ ] Cancellation and rescheduling flows
 
 ---
 
