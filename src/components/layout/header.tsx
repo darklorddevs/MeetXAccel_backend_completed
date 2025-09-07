@@ -59,7 +59,7 @@ export const Header: React.FC<HeaderProps> = ({
   ]
 
   return (
-    <header className="bg-primary-900 border-b border-primary-700 sticky top-0 z-40">
+    <header className="bg-neutral-50 border-b border-primary-300 sticky top-0 z-40">
       <div className="px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Left section */}
@@ -78,10 +78,10 @@ export const Header: React.FC<HeaderProps> = ({
 
             {/* Logo */}
             <Link href="/" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-accent-pink to-accent-purple rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-br from-accent-blue to-accent-indigo rounded-lg flex items-center justify-center">
                 <Calendar className="h-5 w-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-neutral-100 hidden sm:block">
+              <span className="text-xl font-bold text-neutral-900 hidden sm:block">
                 Calendly Clone
               </span>
             </Link>
@@ -98,8 +98,8 @@ export const Header: React.FC<HeaderProps> = ({
                       className={cn(
                         'px-3 py-2 rounded-lg text-sm font-medium transition-colors',
                         isActive
-                          ? 'bg-accent-pink text-white'
-                          : 'text-neutral-300 hover:text-neutral-100 hover:bg-primary-800'
+                          ? 'bg-accent-blue text-white'
+                          : 'text-neutral-600 hover:text-neutral-900 hover:bg-primary-100'
                       )}
                     >
                       {item.name}
@@ -120,7 +120,7 @@ export const Header: React.FC<HeaderProps> = ({
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   leftIcon={<Search className="h-4 w-4" />}
-                  className="bg-primary-800 border-primary-600"
+                  className="bg-neutral-50 border-primary-300"
                 />
               </form>
             </div>
@@ -149,13 +149,13 @@ export const Header: React.FC<HeaderProps> = ({
                 >
                   <Bell className="h-5 w-5" />
                   {/* Notification badge */}
-                  <span className="absolute -top-1 -right-1 h-3 w-3 bg-accent-pink rounded-full"></span>
+                 <span className="absolute -top-1 -right-1 h-3 w-3 bg-accent-red rounded-full"></span>
                 </Button>
 
                 {/* User menu */}
                 <HeadlessMenu as="div" className="relative">
-                  <HeadlessMenu.Button className="flex items-center space-x-2 text-neutral-300 hover:text-neutral-100 focus:outline-none">
-                    <div className="w-8 h-8 bg-gradient-to-br from-accent-pink to-accent-purple rounded-full flex items-center justify-center">
+                  <HeadlessMenu.Button className="flex items-center space-x-2 text-neutral-600 hover:text-neutral-900 focus:outline-none">
+                    <div className="w-8 h-8 bg-gradient-to-br from-accent-blue to-accent-indigo rounded-full flex items-center justify-center">
                       {user?.profile?.profile_picture ? (
                         <img
                           src={user.profile.profile_picture}
@@ -182,13 +182,14 @@ export const Header: React.FC<HeaderProps> = ({
                     leaveTo="transform opacity-0 scale-95"
                   >
                     <HeadlessMenu.Items className="absolute right-0 mt-2 w-56 origin-top-right bg-primary-800 border border-primary-700 rounded-lg shadow-monkai-lg focus:outline-none">
+                    <HeadlessMenu.Items className="absolute right-0 mt-2 w-56 origin-top-right bg-neutral-50 border border-primary-300 rounded-lg shadow-slate-lg focus:outline-none">
                       <div className="p-2">
                         {/* User info */}
-                        <div className="px-3 py-2 border-b border-primary-700 mb-2">
-                          <p className="text-sm font-medium text-neutral-100">
+                        <div className="px-3 py-2 border-b border-primary-200 mb-2">
+                          <p className="text-sm font-medium text-neutral-900">
                             {user?.full_name}
                           </p>
-                          <p className="text-xs text-neutral-400">
+                          <p className="text-xs text-neutral-600">
                             {user?.email}
                           </p>
                         </div>
@@ -200,7 +201,7 @@ export const Header: React.FC<HeaderProps> = ({
                               href={ROUTES.profile}
                               className={cn(
                                 'flex items-center px-3 py-2 text-sm rounded-md transition-colors',
-                                active ? 'bg-primary-700 text-neutral-100' : 'text-neutral-300'
+                                active ? 'bg-primary-100 text-neutral-900' : 'text-neutral-700'
                               )}
                             >
                               <User className="h-4 w-4 mr-3" />
@@ -215,7 +216,7 @@ export const Header: React.FC<HeaderProps> = ({
                               href={ROUTES.settings}
                               className={cn(
                                 'flex items-center px-3 py-2 text-sm rounded-md transition-colors',
-                                active ? 'bg-primary-700 text-neutral-100' : 'text-neutral-300'
+                                active ? 'bg-primary-100 text-neutral-900' : 'text-neutral-700'
                               )}
                             >
                               <Settings className="h-4 w-4 mr-3" />
@@ -224,7 +225,7 @@ export const Header: React.FC<HeaderProps> = ({
                           )}
                         </HeadlessMenu.Item>
 
-                        <div className="border-t border-primary-700 my-2"></div>
+                        <div className="border-t border-primary-200 my-2"></div>
 
                         <HeadlessMenu.Item>
                           {({ active }) => (
@@ -232,7 +233,7 @@ export const Header: React.FC<HeaderProps> = ({
                               onClick={logout}
                               className={cn(
                                 'flex items-center w-full px-3 py-2 text-sm rounded-md transition-colors',
-                                active ? 'bg-primary-700 text-neutral-100' : 'text-neutral-300'
+                                active ? 'bg-primary-100 text-neutral-900' : 'text-neutral-700'
                               )}
                             >
                               <LogOut className="h-4 w-4 mr-3" />

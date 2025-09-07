@@ -59,7 +59,7 @@ export const Modal: React.FC<ModalProps> = ({
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 bg-black/50 backdrop-blur-sm" />
+          <div className="fixed inset-0 bg-neutral-900/20 backdrop-blur-sm" />
         </Transition.Child>
 
         {/* Modal container */}
@@ -76,25 +76,25 @@ export const Modal: React.FC<ModalProps> = ({
             >
               <Dialog.Panel 
                 className={cn(
-                  'w-full transform overflow-hidden rounded-xl bg-primary-800 border border-primary-700 shadow-monkai-xl text-left align-middle transition-all',
+                  'w-full transform overflow-hidden rounded-xl bg-neutral-50 border border-primary-300 shadow-slate-xl text-left align-middle transition-all',
                   sizeClasses[size],
                   className
                 )}
               >
                 {/* Header */}
                 {(title || showCloseButton) && (
-                  <div className="flex items-center justify-between p-6 border-b border-primary-700">
+                  <div className="flex items-center justify-between p-6 border-b border-primary-200">
                     <div>
                       {title && (
                         <Dialog.Title
                           as="h3"
-                          className="text-lg font-semibold text-neutral-100"
+                          className="text-lg font-semibold text-neutral-900"
                         >
                           {title}
                         </Dialog.Title>
                       )}
                       {description && (
-                        <p className="mt-1 text-sm text-neutral-400">
+                        <p className="mt-1 text-sm text-neutral-600">
                           {description}
                         </p>
                       )}
@@ -105,7 +105,7 @@ export const Modal: React.FC<ModalProps> = ({
                         variant="ghost"
                         size="icon"
                         onClick={onClose}
-                        className="text-neutral-400 hover:text-neutral-200"
+                        className="text-neutral-500 hover:text-neutral-700"
                       >
                         <X className="h-4 w-4" />
                       </Button>

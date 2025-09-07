@@ -113,16 +113,16 @@ export default function LoginPage() {
             <input
               {...register('remember_me')}
               type="checkbox"
-              className="h-4 w-4 text-accent-pink bg-primary-700 border-primary-600 rounded focus:ring-accent-pink focus:ring-2 focus:ring-offset-2 focus:ring-offset-primary-800"
+              className="h-4 w-4 text-accent-blue bg-neutral-50 border-primary-400 rounded focus:ring-accent-blue focus:ring-2 focus:ring-offset-2 focus:ring-offset-primary-50"
             />
-            <span className="ml-2 text-sm text-neutral-300">
+            <span className="ml-2 text-sm text-neutral-600">
               Remember me
             </span>
           </label>
 
           <Link 
             href={ROUTES.forgotPassword}
-            className="text-sm text-accent-pink hover:text-accent-pink/80"
+            className="text-sm text-accent-blue hover:text-accent-blue/80"
           >
             Forgot your password?
           </Link>
@@ -130,8 +130,8 @@ export default function LoginPage() {
 
         {/* Form errors */}
         {errors.root && (
-          <div className="bg-error-500/10 border border-error-500/20 rounded-lg p-3">
-            <p className="text-sm text-error-500">
+          <div className="bg-error-50 border border-error-200 rounded-lg p-3">
+            <p className="text-sm text-error-700">
               {errors.root.message}
             </p>
           </div>
@@ -152,10 +152,10 @@ export default function LoginPage() {
           <>
             <div className="relative">
               <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-primary-600" />
+                <div className="w-full border-t border-primary-300" />
               </div>
               <div className="relative flex justify-center text-sm">
-                <span className="px-2 bg-primary-800 text-neutral-400">
+                <span className="px-2 bg-neutral-50 text-neutral-500">
                   Or continue with
                 </span>
               </div>
@@ -194,11 +194,11 @@ export default function LoginPage() {
 
         {/* Sign up link */}
         <div className="text-center">
-          <p className="text-sm text-neutral-400">
+          <p className="text-sm text-neutral-600">
             Don't have an account?{' '}
             <Link 
               href={ROUTES.register}
-              className="text-accent-pink hover:text-accent-pink/80 font-medium"
+              className="text-accent-blue hover:text-accent-blue/80 font-medium"
             >
               Sign up for free
             </Link>

@@ -25,7 +25,7 @@ export const Spinner: React.FC<SpinnerProps> = ({ size = 'md', className }) => {
   return (
     <Loader2 
       className={cn(
-        'animate-spin text-accent-pink',
+        'animate-spin text-accent-blue',
         sizeClasses[size],
         className
       )} 
@@ -42,9 +42,9 @@ export const PageLoading: React.FC<PageLoadingProps> = ({
   message = 'Loading...' 
 }) => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-primary-900">
+    <div className="min-h-screen flex flex-col items-center justify-center bg-primary-50">
       <Spinner size="xl" />
-      <p className="mt-4 text-neutral-300 text-lg">{message}</p>
+      <p className="mt-4 text-neutral-600 text-lg">{message}</p>
     </div>
   )
 }
@@ -65,7 +65,7 @@ export const InlineLoading: React.FC<InlineLoadingProps> = ({
     <div className={cn('flex items-center justify-center p-4', className)}>
       <Spinner size={size} />
       {message && (
-        <span className="ml-3 text-neutral-300">{message}</span>
+        <span className="ml-3 text-neutral-600">{message}</span>
       )}
     </div>
   )
@@ -81,7 +81,7 @@ export const Skeleton: React.FC<SkeletonProps> = ({ className, children }) => {
   return (
     <div
       className={cn(
-        'animate-pulse rounded-lg bg-primary-700',
+        'animate-pulse rounded-lg bg-primary-200',
         className
       )}
     >
@@ -93,7 +93,7 @@ export const Skeleton: React.FC<SkeletonProps> = ({ className, children }) => {
 // Card skeleton
 export const CardSkeleton: React.FC = () => {
   return (
-    <div className="bg-primary-800 border border-primary-700 rounded-lg p-6 space-y-4">
+    <div className="bg-neutral-50 border border-primary-300 rounded-lg p-6 space-y-4">
       <Skeleton className="h-4 w-3/4" />
       <Skeleton className="h-4 w-1/2" />
       <div className="space-y-2">
@@ -115,9 +115,9 @@ export const TableSkeleton: React.FC<{ rows?: number; columns?: number }> = ({
   columns = 4 
 }) => {
   return (
-    <div className="bg-primary-800 border border-primary-700 rounded-lg overflow-hidden">
+    <div className="bg-neutral-50 border border-primary-300 rounded-lg overflow-hidden">
       {/* Header */}
-      <div className="border-b border-primary-700 p-4">
+      <div className="border-b border-primary-200 p-4">
         <div className="grid gap-4" style={{ gridTemplateColumns: `repeat(${columns}, 1fr)` }}>
           {Array.from({ length: columns }).map((_, i) => (
             <Skeleton key={i} className="h-4 w-full" />
@@ -126,7 +126,7 @@ export const TableSkeleton: React.FC<{ rows?: number; columns?: number }> = ({
       </div>
       
       {/* Rows */}
-      <div className="divide-y divide-primary-700">
+      <div className="divide-y divide-primary-200">
         {Array.from({ length: rows }).map((_, rowIndex) => (
           <div key={rowIndex} className="p-4">
             <div className="grid gap-4" style={{ gridTemplateColumns: `repeat(${columns}, 1fr)` }}>
@@ -165,7 +165,7 @@ export const FormSkeleton: React.FC = () => {
 // Calendar skeleton
 export const CalendarSkeleton: React.FC = () => {
   return (
-    <div className="bg-primary-800 border border-primary-700 rounded-lg p-6">
+    <div className="bg-neutral-50 border border-primary-300 rounded-lg p-6">
       {/* Calendar header */}
       <div className="flex items-center justify-between mb-6">
         <Skeleton className="h-6 w-32" />
@@ -208,11 +208,11 @@ export const LoadingOverlay: React.FC<LoadingOverlayProps> = ({
       {children}
       
       {isLoading && (
-        <div className="absolute inset-0 bg-primary-900/50 backdrop-blur-sm flex items-center justify-center rounded-lg z-10">
-          <div className="bg-primary-800 border border-primary-700 rounded-lg p-6 shadow-monkai-lg">
+        <div className="absolute inset-0 bg-neutral-900/20 backdrop-blur-sm flex items-center justify-center rounded-lg z-10">
+          <div className="bg-neutral-50 border border-primary-300 rounded-lg p-6 shadow-slate-lg">
             <div className="flex items-center space-x-3">
               <Spinner size="md" />
-              <span className="text-neutral-200 font-medium">{message}</span>
+              <span className="text-neutral-700 font-medium">{message}</span>
             </div>
           </div>
         </div>

@@ -11,35 +11,35 @@ import { CheckCircle, XCircle, AlertCircle, Info } from 'lucide-react'
 const toastStyles = {
   success: {
     style: {
-      background: '#00B894',
+      background: '#10B981',
       color: '#ffffff',
       border: '1px solid #059669',
     },
     iconTheme: {
       primary: '#ffffff',
-      secondary: '#00B894',
+      secondary: '#10B981',
     },
   },
   error: {
     style: {
-      background: '#E94560',
+      background: '#EF4444',
       color: '#ffffff',
-      border: '1px solid #dc2626',
+      border: '1px solid #DC2626',
     },
     iconTheme: {
       primary: '#ffffff',
-      secondary: '#E94560',
+      secondary: '#EF4444',
     },
   },
   loading: {
     style: {
-      background: '#3f3f6c',
-      color: '#e1e1ea',
-      border: '1px solid #545481',
+      background: '#F1F5F9',
+      color: '#334155',
+      border: '1px solid #CBD5E1',
     },
     iconTheme: {
-      primary: '#e1e1ea',
-      secondary: '#3f3f6c',
+      primary: '#334155',
+      secondary: '#F1F5F9',
     },
   },
 }
@@ -65,9 +65,9 @@ export const toast = {
   warning: (message: string) => {
     return hotToast(message, {
       style: {
-        background: '#FF6B35',
+        background: '#F59E0B',
         color: '#ffffff',
-        border: '1px solid #d97706',
+        border: '1px solid #D97706',
       },
       icon: <AlertCircle className="h-5 w-5" />,
       duration: 5000,
@@ -77,7 +77,7 @@ export const toast = {
   info: (message: string) => {
     return hotToast(message, {
       style: {
-        background: '#007BFF',
+        background: '#3B82F6',
         color: '#ffffff',
         border: '1px solid #2563eb',
       },
@@ -124,14 +124,14 @@ export const ToastProvider: React.FC = () => {
       toastOptions={{
         duration: 4000,
         style: {
-          background: '#3f3f6c',
-          color: '#e1e1ea',
-          border: '1px solid #545481',
+          background: '#FFFFFF',
+          color: '#334155',
+          border: '1px solid #CBD5E1',
           borderRadius: '0.5rem',
           fontSize: '14px',
           fontWeight: '500',
           padding: '12px 16px',
-          boxShadow: '0 10px 15px -3px rgba(233, 69, 96, 0.1), 0 4px 6px -2px rgba(233, 69, 96, 0.05)',
+          boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
         },
         success: toastStyles.success,
         error: toastStyles.error,

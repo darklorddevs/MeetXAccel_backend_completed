@@ -1,154 +1,153 @@
 /**
- * Monkai Theme Color Definitions
+ * Subtle Slate Theme Color Definitions
  * 
- * This file contains the complete color palette for the Monkai-themed
- * Calendly clone application. Colors are designed for dark-first UI
- * with high contrast and professional appearance.
+ * Professional, enterprise-grade light theme with sophisticated grays,
+ * clean whites, and vibrant but refined accent colors.
  */
 
-export const monkaiColors = {
-  // Primary brand colors - deep, sophisticated tones
+export const subtleSlateColors = {
+  // Primary colors - light, sophisticated grays for backgrounds
   primary: {
-    50: '#f0f0f5',   // Lightest - for subtle backgrounds
-    100: '#e1e1ea',  // Very light - for hover states
-    200: '#c3c3d5',  // Light - for disabled states
-    300: '#a5a5c0',  // Medium light - for placeholders
-    400: '#8787ab',  // Medium - for secondary text
-    500: '#696996',  // Base - primary brand color
-    600: '#545481',  // Medium dark - for hover states
-    700: '#3f3f6c',  // Dark - for active states
-    800: '#2a2a57',  // Very dark - for backgrounds
-    900: '#151542',  // Darkest - for main backgrounds
-    950: '#0a0a21'   // Ultra dark - for deep backgrounds
+    50: '#F8FAFC',   // Main background - very light blue-gray
+    100: '#F1F5F9',  // Secondary background
+    200: '#E2E8F0',  // Subtle background variations
+    300: '#CBD5E1',  // Light borders, dividers
+    400: '#94A3B8',  // Medium elements
+    500: '#64748B',  // Base gray
+    600: '#475569',  // Medium dark
+    700: '#334155',  // Dark elements
+    800: '#1E293B',  // Very dark text
+    900: '#0F172A',  // Darkest text
+    950: '#020617'   // Ultra dark (rarely used)
   },
 
-  // Accent colors - vibrant, attention-grabbing
+  // Accent colors - vibrant but professional
   accent: {
-    pink: '#E94560',     // Primary accent - CTAs, important actions
-    green: '#00B894',    // Success, positive actions
-    blue: '#007BFF',     // Info, links, secondary actions
-    orange: '#FF6B35',   // Warning, attention needed
-    purple: '#6C5CE7',   // Secondary accent, premium features
-    yellow: '#FDCB6E',   // Highlights, notifications
-    cyan: '#00CEC9',     // Data visualization, charts
-    indigo: '#6C5CE7'    // Alternative accent
+    blue: '#3B82F6',     // Primary accent - professional blue
+    indigo: '#6366F1',   // Secondary accent - sophisticated indigo
+    emerald: '#10B981',  // Success/positive actions
+    orange: '#F59E0B',   // Warning/attention
+    red: '#EF4444',      // Error/danger
+    purple: '#8B5CF6',   // Premium features
+    teal: '#14B8A6',     // Alternative accent
+    rose: '#F43F5E'      // Highlights, special actions
   },
 
-  // Neutral colors - for text, borders, backgrounds
+  // Neutral colors - for text, borders, subtle elements
   neutral: {
-    50: '#f8f9fa',   // Lightest neutral
-    100: '#f1f3f4',  // Very light gray
-    200: '#e3e5e8',  // Light gray
-    300: '#d1d5db',  // Medium light gray
-    400: '#9ca3af',  // Medium gray
-    500: '#6b7280',  // Base gray
-    600: '#4b5563',  // Medium dark gray
-    700: '#374151',  // Dark gray
-    800: '#1f2937',  // Very dark gray
-    900: '#111827',  // Darkest gray
-    950: '#030712'   // Ultra dark
+    50: '#FFFFFF',   // Pure white for cards
+    100: '#FEFEFE',  // Almost white
+    200: '#FAFAFA',  // Very light gray
+    300: '#F4F4F5',  // Light gray backgrounds
+    400: '#E4E4E7',  // Light borders
+    500: '#A1A1AA',  // Medium gray
+    600: '#71717A',  // Medium dark gray
+    700: '#52525B',  // Dark gray
+    800: '#27272A',  // Very dark gray
+    900: '#18181B',  // Main dark text
+    950: '#09090B'   // Darkest text
   },
 
-  // Semantic colors - contextual meanings
+  // Semantic colors - contextual meanings for light theme
   semantic: {
     success: {
-      light: '#ecfdf5',
-      base: '#00B894',
-      dark: '#047857',
-      text: '#065f46'
+      light: '#F0FDF4',  // Light green background
+      base: '#10B981',   // Success green
+      dark: '#059669',   // Darker success
+      text: '#065F46'    // Success text
     },
     error: {
-      light: '#fef2f2',
-      base: '#E94560',
-      dark: '#b91c1c',
-      text: '#991b1b'
+      light: '#FEF2F2',  // Light red background
+      base: '#EF4444',   // Error red
+      dark: '#DC2626',   // Darker error
+      text: '#991B1B'    // Error text
     },
     warning: {
-      light: '#fffbeb',
-      base: '#FF6B35',
-      dark: '#b45309',
-      text: '#92400e'
+      light: '#FFFBEB',  // Light amber background
+      base: '#F59E0B',   // Warning amber
+      dark: '#D97706',   // Darker warning
+      text: '#92400E'    // Warning text
     },
     info: {
-      light: '#eff6ff',
-      base: '#007BFF',
-      dark: '#1d4ed8',
-      text: '#1e40af'
+      light: '#EFF6FF',  // Light blue background
+      base: '#3B82F6',   // Info blue
+      dark: '#2563EB',   // Darker info
+      text: '#1D4ED8'    // Info text
     }
   },
 
-  // Status colors - for booking states, integration health, etc.
+  // Status colors - for booking states, integration health
   status: {
-    confirmed: '#00B894',
-    pending: '#FF6B35',
-    cancelled: '#E94560',
-    completed: '#6C5CE7',
-    failed: '#dc2626',
-    active: '#00B894',
-    inactive: '#6b7280',
-    healthy: '#00B894',
-    degraded: '#FF6B35',
-    unhealthy: '#E94560'
+    confirmed: '#10B981',
+    pending: '#F59E0B',
+    cancelled: '#EF4444',
+    completed: '#8B5CF6',
+    failed: '#EF4444',
+    active: '#10B981',
+    inactive: '#71717A',
+    healthy: '#10B981',
+    degraded: '#F59E0B',
+    unhealthy: '#EF4444'
   }
 } as const
 
 // Export individual color groups for easier imports
-export const { primary, accent, neutral, semantic, status } = monkaiColors
+export const { primary, accent, neutral, semantic, status } = subtleSlateColors
 
 // Utility function to get color with opacity
 export const withOpacity = (color: string, opacity: number): string => {
   return `${color}${Math.round(opacity * 255).toString(16).padStart(2, '0')}`
 }
 
-// Common color combinations for consistent usage
+// Common color combinations for consistent usage in light theme
 export const colorCombinations = {
   // Card backgrounds
   cardPrimary: {
-    background: primary[800],
-    border: primary[700],
-    text: neutral[100]
+    background: neutral[50],      // White cards
+    border: neutral[300],         // Light gray borders
+    text: neutral[900]            // Dark text
   },
   cardSecondary: {
-    background: primary[900],
-    border: primary[800],
-    text: neutral[200]
+    background: primary[100],     // Very light gray cards
+    border: primary[300],         // Light borders
+    text: neutral[800]            // Dark text
   },
   
-  // Button variants
+  // Button variants for light theme
   buttonPrimary: {
-    background: accent.pink,
-    hover: '#d63851',
+    background: accent.blue,
+    hover: '#2563EB',
     text: neutral[50],
-    border: accent.pink
+    border: accent.blue
   },
   buttonSecondary: {
-    background: primary[700],
-    hover: primary[600],
-    text: neutral[100],
-    border: primary[600]
+    background: primary[100],
+    hover: primary[200],
+    text: neutral[700],
+    border: primary[300]
   },
   buttonSuccess: {
-    background: accent.green,
-    hover: '#00a085',
+    background: accent.emerald,
+    hover: '#059669',
     text: neutral[50],
-    border: accent.green
+    border: accent.emerald
   },
   
-  // Input styles
+  // Input styles for light theme
   input: {
-    background: primary[800],
-    border: primary[600],
-    borderFocus: accent.pink,
-    text: neutral[100],
-    placeholder: neutral[400]
+    background: neutral[50],
+    border: primary[300],
+    borderFocus: accent.blue,
+    text: neutral[900],
+    placeholder: neutral[500]
   },
   
-  // Navigation
+  // Navigation for light theme
   navigation: {
-    background: primary[900],
-    active: accent.pink,
-    hover: primary[700],
-    text: neutral[200],
+    background: neutral[50],
+    active: accent.blue,
+    hover: primary[100],
+    text: neutral[700],
     textActive: neutral[50]
   }
 } as const

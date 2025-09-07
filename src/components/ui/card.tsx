@@ -14,11 +14,11 @@ const cardVariants = cva(
   {
     variants: {
       variant: {
-        default: 'bg-primary-800 border-primary-700 shadow-monkai',
-        secondary: 'bg-primary-900 border-primary-800',
-        outline: 'bg-transparent border-primary-600',
+        default: 'bg-neutral-50 border-primary-300 shadow-slate',
+        secondary: 'bg-primary-100 border-primary-300',
+        outline: 'bg-transparent border-primary-400',
         ghost: 'bg-transparent border-transparent',
-        gradient: 'bg-gradient-to-br from-primary-800 to-primary-900 border-primary-700 shadow-monkai-lg',
+        gradient: 'bg-gradient-to-br from-neutral-50 to-primary-100 border-primary-300 shadow-slate-md',
       },
       padding: {
         none: 'p-0',
@@ -28,8 +28,8 @@ const cardVariants = cva(
       },
       hover: {
         none: '',
-        lift: 'hover:shadow-monkai-lg hover:-translate-y-1',
-        glow: 'hover:shadow-monkai-xl hover:border-accent-pink/50',
+        lift: 'hover:shadow-slate-lg hover:-translate-y-1',
+        glow: 'hover:shadow-slate-xl hover:border-accent-blue/50',
         scale: 'hover:scale-105',
       },
     },
@@ -82,7 +82,7 @@ const CardHeader = React.forwardRef<HTMLDivElement, CardHeaderProps>(
       )}
       
       {description && (
-        <p className="text-sm text-neutral-400">
+        <p className="text-sm text-neutral-600">
           {description}
         </p>
       )}
@@ -109,7 +109,7 @@ const CardFooter = React.forwardRef<
 >(({ className, ...props }, ref) => (
   <div
     ref={ref}
-    className={cn('flex items-center pt-4 border-t border-primary-700', className)}
+    className={cn('flex items-center pt-4 border-t border-primary-200', className)}
     {...props}
   />
 ))
@@ -139,20 +139,20 @@ export const StatsCard: React.FC<StatsCardProps> = ({
     <Card variant="gradient" hover="lift" className={className}>
       <div className="flex items-center justify-between">
         <div>
-          <p className="text-sm font-medium text-neutral-400">{title}</p>
-          <p className="text-2xl font-bold text-neutral-100 mt-1">{value}</p>
+          <p className="text-sm font-medium text-neutral-600">{title}</p>
+          <p className="text-2xl font-bold text-neutral-900 mt-1">{value}</p>
           
           {change && (
             <div className="flex items-center mt-2">
               <span
                 className={cn(
                   'text-xs font-medium',
-                  change.type === 'increase' ? 'text-success-500' : 'text-error-500'
+                  change.type === 'increase' ? 'text-accent-emerald' : 'text-accent-red'
                 )}
               >
                 {change.type === 'increase' ? '↗' : '↘'} {Math.abs(change.value)}%
               </span>
-              <span className="text-xs text-neutral-400 ml-1">
+              <span className="text-xs text-neutral-500 ml-1">
                 vs {change.period}
               </span>
             </div>
@@ -160,7 +160,7 @@ export const StatsCard: React.FC<StatsCardProps> = ({
         </div>
         
         {icon && (
-          <div className="text-accent-pink opacity-80">
+          <div className="text-accent-blue opacity-80">
             {icon}
           </div>
         )}
@@ -188,9 +188,9 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
   className,
 }) => {
   const statusColors = {
-    active: 'border-success-500',
-    inactive: 'border-neutral-600',
-    coming_soon: 'border-warning-500',
+    active: 'border-accent-emerald',
+    inactive: 'border-neutral-400',
+    coming_soon: 'border-accent-orange',
   }
 
   const statusLabels = {
@@ -210,9 +210,9 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
         <span
           className={cn(
             'inline-flex items-center px-2 py-1 rounded-full text-xs font-medium',
-            status === 'active' && 'bg-success-500/20 text-success-500',
-            status === 'inactive' && 'bg-neutral-600/20 text-neutral-400',
-            status === 'coming_soon' && 'bg-warning-500/20 text-warning-500'
+            status === 'active' && 'bg-success-50 text-success-700 border border-success-200',
+            status === 'inactive' && 'bg-neutral-100 text-neutral-600 border border-neutral-300',
+            status === 'coming_soon' && 'bg-warning-50 text-warning-700 border border-warning-200'
           )}
         >
           {statusLabels[status]}
@@ -221,17 +221,17 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
 
       <div className="flex items-start space-x-4">
         {icon && (
-          <div className="flex-shrink-0 text-accent-pink">
+          <div className="flex-shrink-0 text-accent-blue">
             {icon}
           </div>
         )}
         
         <div className="flex-1 min-w-0">
-          <h3 className="text-lg font-semibold text-neutral-100 mb-2">
+          <h3 className="text-lg font-semibold text-neutral-900 mb-2">
             {title}
           </h3>
           
-          <p className="text-neutral-300 mb-4">
+          <p className="text-neutral-600 mb-4">
             {description}
           </p>
           
@@ -263,16 +263,16 @@ export const EmptyState: React.FC<EmptyStateProps> = ({
   return (
     <Card variant="ghost" className={cn('text-center py-12', className)}>
       {icon && (
-        <div className="flex justify-center mb-4 text-neutral-500">
+        <div className="flex justify-center mb-4 text-neutral-400">
           {icon}
         </div>
       )}
       
-      <h3 className="text-lg font-semibold text-neutral-200 mb-2">
+      <h3 className="text-lg font-semibold text-neutral-700 mb-2">
         {title}
       </h3>
       
-      <p className="text-neutral-400 mb-6 max-w-md mx-auto">
+      <p className="text-neutral-600 mb-6 max-w-md mx-auto">
         {description}
       </p>
       

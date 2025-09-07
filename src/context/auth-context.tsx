@@ -419,8 +419,8 @@ export const withAuth = <P extends object>(
     // Show loading while checking access
     if (auth.isLoading || isChecking) {
       return (
-        <div className="min-h-screen flex items-center justify-center bg-primary-900">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-accent-pink"></div>
+        <div className="min-h-screen flex items-center justify-center bg-primary-50">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-accent-blue"></div>
         </div>
       )
     }

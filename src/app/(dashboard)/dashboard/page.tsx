@@ -66,10 +66,10 @@ export default function DashboardPage() {
         {/* Welcome section */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <h1 className="text-2xl font-bold text-neutral-100">
+            <h1 className="text-2xl font-bold text-neutral-900">
               Welcome back, {user?.first_name}! 👋
             </h1>
-            <p className="text-neutral-400 mt-1">
+            <p className="text-neutral-600 mt-1">
               Here's what's happening with your scheduling today.
             </p>
           </div>
@@ -163,22 +163,22 @@ export default function DashboardPage() {
                   <div className="space-y-4">
                     {recentBookings.map((booking: any) => (
                       <div key={booking.id} className="flex items-center space-x-4 p-3 rounded-lg hover:bg-primary-700/50 transition-colors">
-                        <div className="w-10 h-10 bg-gradient-to-br from-accent-pink to-accent-purple rounded-full flex items-center justify-center">
+                        <div className="w-10 h-10 bg-gradient-to-br from-accent-blue to-accent-indigo rounded-full flex items-center justify-center">
                           <Calendar className="h-5 w-5 text-white" />
                         </div>
                         <div className="flex-1 min-w-0">
-                          <p className="text-sm font-medium text-neutral-100 truncate">
+                          <p className="text-sm font-medium text-neutral-900 truncate">
                             {booking.invitee_name}
                           </p>
-                          <p className="text-xs text-neutral-400">
+                          <p className="text-xs text-neutral-600">
                             {booking.event_type.name} • {dateUtils.formatDateTime(booking.start_time)}
                           </p>
                         </div>
                         <div className="flex items-center space-x-2">
                           <span className={`inline-flex items-center px-2 py-1 rounded-full text-xs font-medium ${
-                            booking.status === 'confirmed' ? 'bg-success-500/20 text-success-500' :
-                            booking.status === 'cancelled' ? 'bg-error-500/20 text-error-500' :
-                            'bg-warning-500/20 text-warning-500'
+                            booking.status === 'confirmed' ? 'bg-success-50 text-success-700 border border-success-200' :
+                            booking.status === 'cancelled' ? 'bg-error-50 text-error-700 border border-error-200' :
+                            'bg-warning-50 text-warning-700 border border-warning-200'
                           }`}>
                             {booking.status}
                           </span>
@@ -189,7 +189,7 @@ export default function DashboardPage() {
                 ) : (
                   <div className="text-center py-8">
                     <Calendar className="h-12 w-12 text-neutral-500 mx-auto mb-4" />
-                    <p className="text-neutral-400">No recent bookings</p>
+                    <p className="text-neutral-600">No recent bookings</p>
                     <p className="text-sm text-neutral-500 mt-1">
                       Bookings will appear here once people start scheduling with you.
                     </p>
@@ -270,15 +270,15 @@ export default function DashboardPage() {
         {stats.totalEventTypes === 0 && (
           <Card variant="gradient">
             <CardContent className="text-center py-8">
-              <div className="w-16 h-16 bg-accent-pink/20 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Calendar className="h-8 w-8 text-accent-pink" />
+              <div className="w-16 h-16 bg-accent-blue/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Calendar className="h-8 w-8 text-accent-blue" />
               </div>
               
-              <h3 className="text-lg font-semibold text-neutral-100 mb-2">
+              <h3 className="text-lg font-semibold text-neutral-900 mb-2">
                 Let's get you started!
               </h3>
               
-              <p className="text-neutral-300 mb-6 max-w-md mx-auto">
+              <p className="text-neutral-600 mb-6 max-w-md mx-auto">
                 Create your first event type to start accepting bookings. 
                 It only takes a few minutes to set up.
               </p>

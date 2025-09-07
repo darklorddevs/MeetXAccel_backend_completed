@@ -11,13 +11,13 @@ import { Eye, EyeOff } from 'lucide-react'
 
 const inputVariants = cva(
   // Base styles
-  'flex w-full rounded-lg border bg-primary-800 px-3 py-2 text-sm text-neutral-100 placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-primary-900 disabled:cursor-not-allowed disabled:opacity-50 transition-all duration-200',
+  'flex w-full rounded-lg border bg-neutral-50 px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-primary-50 disabled:cursor-not-allowed disabled:opacity-50 transition-all duration-200',
   {
     variants: {
       variant: {
-        default: 'border-primary-600 focus:border-accent-pink focus:ring-accent-pink',
-        error: 'border-error-500 focus:border-error-500 focus:ring-error-500',
-        success: 'border-success-500 focus:border-success-500 focus:ring-success-500',
+        default: 'border-primary-300 focus:border-accent-blue focus:ring-accent-blue',
+        error: 'border-accent-red focus:border-accent-red focus:ring-accent-red',
+        success: 'border-accent-emerald focus:border-accent-emerald focus:ring-accent-emerald',
       },
       size: {
         sm: 'h-8 px-2 text-xs',
@@ -77,10 +77,10 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
         {label && (
           <label 
             htmlFor={inputId}
-            className="block text-sm font-medium text-neutral-200 mb-2"
+            className="block text-sm font-medium text-neutral-700 mb-2"
           >
             {label}
-            {props.required && <span className="text-error-500 ml-1">*</span>}
+            {props.required && <span className="text-accent-red ml-1">*</span>}
           </label>
         )}
         
@@ -111,7 +111,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="text-neutral-400 hover:text-neutral-300 focus:outline-none"
+                  className="text-neutral-500 hover:text-neutral-600 focus:outline-none"
                   tabIndex={-1}
                 >
                   {showPassword ? (
@@ -121,7 +121,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
                   )}
                 </button>
               ) : (
-                <div className="text-neutral-400">{rightIcon}</div>
+                <div className="text-neutral-500">{rightIcon}</div>
               )}
             </div>
           )}
@@ -129,7 +129,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
         
         {/* Error message */}
         {error && (
-          <p className="mt-1 text-sm text-error-500 flex items-center">
+          <p className="mt-1 text-sm text-accent-red flex items-center">
             <span className="mr-1">⚠</span>
             {error}
           </p>
@@ -137,7 +137,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
         
         {/* Helper text */}
         {helperText && !error && (
-          <p className="mt-1 text-sm text-neutral-400">
+          <p className="mt-1 text-sm text-neutral-600">
             {helperText}
           </p>
         )}

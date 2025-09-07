@@ -9,62 +9,65 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Monkai Theme Color Palette
+        // Subtle Slate Theme Color Palette
         primary: {
-          50: '#f0f0f5',
-          100: '#e1e1ea',
-          200: '#c3c3d5',
-          300: '#a5a5c0',
-          400: '#8787ab',
-          500: '#696996',
-          600: '#545481',
-          700: '#3f3f6c',
-          800: '#2a2a57',
-          900: '#151542',
-          950: '#0a0a21'
+          50: '#F8FAFC',
+          100: '#F1F5F9',
+          200: '#E2E8F0',
+          300: '#CBD5E1',
+          400: '#94A3B8',
+          500: '#64748B',
+          600: '#475569',
+          700: '#334155',
+          800: '#1E293B',
+          900: '#0F172A',
+          950: '#020617'
         },
         accent: {
-          pink: '#E94560',
-          green: '#00B894',
-          blue: '#007BFF',
-          orange: '#FF6B35',
-          purple: '#6C5CE7'
+          blue: '#3B82F6',
+          indigo: '#6366F1',
+          emerald: '#10B981',
+          orange: '#F59E0B',
+          red: '#EF4444',
+          purple: '#8B5CF6',
+          teal: '#14B8A6',
+          rose: '#F43F5E'
         },
         neutral: {
-          50: '#f8f9fa',
-          100: '#f1f3f4',
-          200: '#e3e5e8',
-          300: '#d1d5db',
-          400: '#9ca3af',
-          500: '#6b7280',
-          600: '#4b5563',
-          700: '#374151',
-          800: '#1f2937',
-          900: '#111827',
-          950: '#030712'
+          50: '#FFFFFF',
+          100: '#FEFEFE',
+          200: '#FAFAFA',
+          300: '#F4F4F5',
+          400: '#E4E4E7',
+          500: '#A1A1AA',
+          600: '#71717A',
+          700: '#52525B',
+          800: '#27272A',
+          900: '#18181B',
+          950: '#09090B'
         },
-        // Semantic colors with Monkai theme
+        // Semantic colors for light theme
         success: {
-          50: '#ecfdf5',
-          500: '#00B894',
+          50: '#F0FDF4',
+          500: '#10B981',
           600: '#059669',
           700: '#047857'
         },
         error: {
           50: '#fef2f2',
-          500: '#E94560',
-          600: '#dc2626',
+          500: '#EF4444',
+          600: '#DC2626',
           700: '#b91c1c'
         },
         warning: {
           50: '#fffbeb',
-          500: '#FF6B35',
-          600: '#d97706',
+          500: '#F59E0B',
+          600: '#D97706',
           700: '#b45309'
         },
         info: {
           50: '#eff6ff',
-          500: '#007BFF',
+          500: '#3B82F6',
           600: '#2563eb',
           700: '#1d4ed8'
         }
@@ -91,9 +94,10 @@ const config: Config = {
         '128': '32rem',
       },
       boxShadow: {
-        'monkai': '0 4px 6px -1px rgba(233, 69, 96, 0.1), 0 2px 4px -1px rgba(233, 69, 96, 0.06)',
-        'monkai-lg': '0 10px 15px -3px rgba(233, 69, 96, 0.1), 0 4px 6px -2px rgba(233, 69, 96, 0.05)',
-        'monkai-xl': '0 20px 25px -5px rgba(233, 69, 96, 0.1), 0 10px 10px -5px rgba(233, 69, 96, 0.04)',
+        'slate': '0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)',
+        'slate-md': '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+        'slate-lg': '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+        'slate-xl': '0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)',
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',

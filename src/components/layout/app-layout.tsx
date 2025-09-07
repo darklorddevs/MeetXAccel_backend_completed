@@ -20,7 +20,7 @@ export const AppLayout: React.FC<AppLayoutProps> = ({ children, className }) => 
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (
-    <div className="min-h-screen bg-primary-950">
+    <div className="min-h-screen bg-primary-50">
       {/* Sidebar */}
       <Sidebar 
         isOpen={sidebarOpen} 

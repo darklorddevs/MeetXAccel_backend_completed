@@ -84,7 +84,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${robotoMono.variable}`}>
-      <body className="font-sans antialiased bg-primary-950 text-neutral-100">
+      <body className="font-sans antialiased bg-primary-50 text-neutral-900">
         <Providers>
           {children}
         </Providers>

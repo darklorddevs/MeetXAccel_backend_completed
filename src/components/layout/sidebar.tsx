@@ -253,8 +253,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
               'w-full flex items-center justify-between px-3 py-2 text-sm font-medium rounded-lg transition-colors',
               level > 0 && 'ml-4',
               isActive
-                ? 'bg-accent-pink text-white'
-                : 'text-neutral-300 hover:text-neutral-100 hover:bg-primary-800'
+                ? 'bg-accent-blue text-white'
+                : 'text-neutral-600 hover:text-neutral-900 hover:bg-primary-100'
             )}
           >
             <div className="flex items-center">
@@ -280,14 +280,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
               'flex items-center px-3 py-2 text-sm font-medium rounded-lg transition-colors',
               level > 0 && 'ml-4',
               isActive
-                ? 'bg-accent-pink text-white'
-                : 'text-neutral-300 hover:text-neutral-100 hover:bg-primary-800'
+                ? 'bg-accent-blue text-white'
+                : 'text-neutral-600 hover:text-neutral-900 hover:bg-primary-100'
             )}
           >
             <item.icon className="h-5 w-5 mr-3" />
             {item.name}
             {item.badge && (
-              <span className="ml-auto px-2 py-0.5 text-xs bg-accent-pink text-white rounded-full">
+              <span className="ml-auto px-2 py-0.5 text-xs bg-accent-blue text-white rounded-full">
                 {item.badge}
               </span>
             )}
@@ -317,18 +317,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
       {/* Sidebar */}
       <aside
         className={cn(
-          'fixed top-0 left-0 z-50 h-full w-64 bg-primary-900 border-r border-primary-700 transform transition-transform duration-300 ease-in-out lg:translate-x-0 lg:static lg:inset-0',
+          'fixed top-0 left-0 z-50 h-full w-64 bg-neutral-50 border-r border-primary-300 transform transition-transform duration-300 ease-in-out lg:translate-x-0 lg:static lg:inset-0',
           isOpen ? 'translate-x-0' : '-translate-x-full',
           className
         )}
       >
         {/* Sidebar header */}
-        <div className="flex items-center justify-between h-16 px-4 border-b border-primary-700">
+        <div className="flex items-center justify-between h-16 px-4 border-b border-primary-200">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-accent-pink to-accent-purple rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-gradient-to-br from-accent-blue to-accent-indigo rounded-lg flex items-center justify-center">
               <Calendar className="h-5 w-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-neutral-100">
+            <span className="text-xl font-bold text-neutral-900">
               Calendly Clone
             </span>
           </Link>
@@ -354,7 +354,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           {/* Admin navigation */}
           {filteredAdminNavigation.length > 0 && (
             <>
-              <div className="border-t border-primary-700 my-6"></div>
+              <div className="border-t border-primary-200 my-6"></div>
               <div className="space-y-1">
                 <h3 className="px-3 text-xs font-semibold text-neutral-500 uppercase tracking-wider">
                   Administration
@@ -365,18 +365,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
           )}
 
           {/* Help section */}
-          <div className="border-t border-primary-700 my-6"></div>
+          <div className="border-t border-primary-200 my-6"></div>
           <div className="space-y-1">
             <Link
               href="/help"
-              className="flex items-center px-3 py-2 text-sm font-medium text-neutral-300 hover:text-neutral-100 hover:bg-primary-800 rounded-lg transition-colors"
+              className="flex items-center px-3 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-primary-100 rounded-lg transition-colors"
             >
               <HelpCircle className="h-5 w-5 mr-3" />
               Help & Support
             </Link>
             <Link
               href="/docs"
-              className="flex items-center px-3 py-2 text-sm font-medium text-neutral-300 hover:text-neutral-100 hover:bg-primary-800 rounded-lg transition-colors"
+              className="flex items-center px-3 py-2 text-sm font-medium text-neutral-600 hover:text-neutral-900 hover:bg-primary-100 rounded-lg transition-colors"
             >
               <BookOpen className="h-5 w-5 mr-3" />
               Documentation
@@ -385,9 +385,9 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </nav>
 
         {/* User info footer */}
-        <div className="border-t border-primary-700 p-4">
+        <div className="border-t border-primary-200 p-4">
           <div className="flex items-center space-x-3">
-            <div className="w-10 h-10 bg-gradient-to-br from-accent-pink to-accent-purple rounded-full flex items-center justify-center">
+            <div className="w-10 h-10 bg-gradient-to-br from-accent-blue to-accent-indigo rounded-full flex items-center justify-center">
               {user?.profile?.profile_picture ? (
                 <img
                   src={user.profile.profile_picture}
@@ -399,10 +399,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
               )}
             </div>
             <div className="flex-1 min-w-0">
-              <p className="text-sm font-medium text-neutral-100 truncate">
+              <p className="text-sm font-medium text-neutral-900 truncate">
                 {user?.full_name}
               </p>
-              <p className="text-xs text-neutral-400 truncate">
+              <p className="text-xs text-neutral-600 truncate">
                 {user?.profile?.company || 'Organizer'}
               </p>
             </div>

@@ -49,17 +49,17 @@ export default function HomePage() {
 
   // Show landing page for unauthenticated users
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-950 via-primary-900 to-primary-800">
+    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-primary-100 to-primary-200">
       {/* Header */}
-      <header className="border-b border-primary-700">
+      <header className="border-b border-primary-300">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-accent-pink to-accent-purple rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-br from-accent-blue to-accent-indigo rounded-lg flex items-center justify-center">
                 <Calendar className="h-5 w-5 text-white" />
               </div>
-              <span className="text-xl font-bold text-neutral-100">
+              <span className="text-xl font-bold text-neutral-900">
                 Calendly Clone
               </span>
             </div>
@@ -86,12 +86,12 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-4xl sm:text-6xl font-bold text-neutral-100 mb-6">
             Scheduling made{' '}
-            <span className="monkai-text-gradient">
+            <span className="slate-text-gradient">
               simple
             </span>
           </h1>
           
-          <p className="text-xl text-neutral-300 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-neutral-600 mb-8 max-w-3xl mx-auto">
             Eliminate the back-and-forth emails and find the perfect time for everyone. 
             Our enterprise-grade scheduling platform makes booking meetings effortless.
           </p>
@@ -114,10 +114,10 @@ export default function HomePage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold text-neutral-100 mb-4">
+            <h2 className="text-3xl font-bold text-neutral-900 mb-4">
               Everything you need to schedule smarter
             </h2>
-            <p className="text-lg text-neutral-300 max-w-2xl mx-auto">
+            <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
               Powerful features designed for modern teams and professionals
             </p>
           </div>
@@ -157,13 +157,13 @@ export default function HomePage() {
               },
             ].map((feature, index) => (
               <Card key={index} variant="gradient" hover="lift" className="p-6">
-                <div className="text-accent-pink mb-4">
+                <div className="text-accent-blue mb-4">
                   <feature.icon className="h-8 w-8" />
                 </div>
-                <h3 className="text-lg font-semibold text-neutral-100 mb-2">
+                <h3 className="text-lg font-semibold text-neutral-900 mb-2">
                   {feature.title}
                 </h3>
-                <p className="text-neutral-300">
+                <p className="text-neutral-600">
                   {feature.description}
                 </p>
               </Card>
@@ -173,9 +173,9 @@ export default function HomePage() {
       </section>
 
       {/* Social Proof Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-primary-900/50">
+      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-primary-100/50">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-neutral-100 mb-4">
+          <h2 className="text-3xl font-bold text-neutral-900 mb-4">
             Trusted by teams worldwide
           </h2>
           
@@ -187,10 +187,10 @@ export default function HomePage() {
               { metric: '4.9/5', label: 'User rating' },
             ].map((stat, index) => (
               <div key={index} className="text-center">
-                <div className="text-3xl font-bold text-accent-pink mb-2">
+                <div className="text-3xl font-bold text-accent-blue mb-2">
                   {stat.metric}
                 </div>
-                <div className="text-neutral-300">
+                <div className="text-neutral-600">
                   {stat.label}
                 </div>
               </div>
@@ -202,10 +202,10 @@ export default function HomePage() {
       {/* CTA Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-bold text-neutral-100 mb-4">
+          <h2 className="text-3xl font-bold text-neutral-900 mb-4">
             Ready to transform your scheduling?
           </h2>
-          <p className="text-lg text-neutral-300 mb-8">
+          <p className="text-lg text-neutral-600 mb-8">
             Join thousands of professionals who have streamlined their scheduling with our platform.
           </p>
           
@@ -228,52 +228,52 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-primary-700 py-12 px-4 sm:px-6 lg:px-8">
+      <footer className="border-t border-primary-300 py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div>
-              <h3 className="text-sm font-semibold text-neutral-200 mb-4">Product</h3>
+              <h3 className="text-sm font-semibold text-neutral-700 mb-4">Product</h3>
               <ul className="space-y-2">
-                <li><Link href="/features" className="text-neutral-400 hover:text-neutral-300">Features</Link></li>
-                <li><Link href="/pricing" className="text-neutral-400 hover:text-neutral-300">Pricing</Link></li>
-                <li><Link href="/integrations" className="text-neutral-400 hover:text-neutral-300">Integrations</Link></li>
-                <li><Link href="/api" className="text-neutral-400 hover:text-neutral-300">API</Link></li>
+                <li><Link href="/features" className="text-neutral-600 hover:text-neutral-800">Features</Link></li>
+                <li><Link href="/pricing" className="text-neutral-600 hover:text-neutral-800">Pricing</Link></li>
+                <li><Link href="/integrations" className="text-neutral-600 hover:text-neutral-800">Integrations</Link></li>
+                <li><Link href="/api" className="text-neutral-600 hover:text-neutral-800">API</Link></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="text-sm font-semibold text-neutral-200 mb-4">Company</h3>
+              <h3 className="text-sm font-semibold text-neutral-700 mb-4">Company</h3>
               <ul className="space-y-2">
-                <li><Link href="/about" className="text-neutral-400 hover:text-neutral-300">About</Link></li>
-                <li><Link href="/careers" className="text-neutral-400 hover:text-neutral-300">Careers</Link></li>
-                <li><Link href="/blog" className="text-neutral-400 hover:text-neutral-300">Blog</Link></li>
-                <li><Link href="/press" className="text-neutral-400 hover:text-neutral-300">Press</Link></li>
+                <li><Link href="/about" className="text-neutral-600 hover:text-neutral-800">About</Link></li>
+                <li><Link href="/careers" className="text-neutral-600 hover:text-neutral-800">Careers</Link></li>
+                <li><Link href="/blog" className="text-neutral-600 hover:text-neutral-800">Blog</Link></li>
+                <li><Link href="/press" className="text-neutral-600 hover:text-neutral-800">Press</Link></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="text-sm font-semibold text-neutral-200 mb-4">Support</h3>
+              <h3 className="text-sm font-semibold text-neutral-700 mb-4">Support</h3>
               <ul className="space-y-2">
-                <li><Link href="/help" className="text-neutral-400 hover:text-neutral-300">Help Center</Link></li>
-                <li><Link href="/docs" className="text-neutral-400 hover:text-neutral-300">Documentation</Link></li>
-                <li><Link href="/contact" className="text-neutral-400 hover:text-neutral-300">Contact</Link></li>
-                <li><Link href="/status" className="text-neutral-400 hover:text-neutral-300">Status</Link></li>
+                <li><Link href="/help" className="text-neutral-600 hover:text-neutral-800">Help Center</Link></li>
+                <li><Link href="/docs" className="text-neutral-600 hover:text-neutral-800">Documentation</Link></li>
+                <li><Link href="/contact" className="text-neutral-600 hover:text-neutral-800">Contact</Link></li>
+                <li><Link href="/status" className="text-neutral-600 hover:text-neutral-800">Status</Link></li>
               </ul>
             </div>
             
             <div>
-              <h3 className="text-sm font-semibold text-neutral-200 mb-4">Legal</h3>
+              <h3 className="text-sm font-semibold text-neutral-700 mb-4">Legal</h3>
               <ul className="space-y-2">
-                <li><Link href="/privacy" className="text-neutral-400 hover:text-neutral-300">Privacy</Link></li>
-                <li><Link href="/terms" className="text-neutral-400 hover:text-neutral-300">Terms</Link></li>
-                <li><Link href="/security" className="text-neutral-400 hover:text-neutral-300">Security</Link></li>
-                <li><Link href="/compliance" className="text-neutral-400 hover:text-neutral-300">Compliance</Link></li>
+                <li><Link href="/privacy" className="text-neutral-600 hover:text-neutral-800">Privacy</Link></li>
+                <li><Link href="/terms" className="text-neutral-600 hover:text-neutral-800">Terms</Link></li>
+                <li><Link href="/security" className="text-neutral-600 hover:text-neutral-800">Security</Link></li>
+                <li><Link href="/compliance" className="text-neutral-600 hover:text-neutral-800">Compliance</Link></li>
               </ul>
             </div>
           </div>
           
-          <div className="border-t border-primary-700 mt-8 pt-8 text-center">
-            <p className="text-neutral-400">
+          <div className="border-t border-primary-200 mt-8 pt-8 text-center">
+            <p className="text-neutral-500">
               © 2024 Calendly Clone. All rights reserved.
             </p>
           </div>

@@ -12,16 +12,16 @@ import { Loader2 } from 'lucide-react'
 
 const buttonVariants = cva(
   // Base styles
-  'inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-primary-900 disabled:pointer-events-none disabled:opacity-50',
+  'inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-offset-primary-50 disabled:pointer-events-none disabled:opacity-50',
   {
     variants: {
       variant: {
-        primary: 'bg-accent-pink hover:bg-accent-pink/90 text-white shadow-monkai hover:shadow-monkai-lg focus-visible:ring-accent-pink',
-        secondary: 'bg-primary-700 hover:bg-primary-600 text-neutral-100 border border-primary-600 hover:border-primary-500',
-        success: 'bg-accent-green hover:bg-accent-green/90 text-white shadow-monkai hover:shadow-monkai-lg focus-visible:ring-accent-green',
-        outline: 'border border-accent-pink text-accent-pink hover:bg-accent-pink hover:text-white focus-visible:ring-accent-pink',
-        ghost: 'text-neutral-300 hover:bg-primary-800 hover:text-neutral-100 focus-visible:ring-primary-600',
-        danger: 'bg-error-500 hover:bg-error-600 text-white shadow-monkai hover:shadow-monkai-lg focus-visible:ring-error-500',
+        primary: 'bg-accent-blue hover:bg-accent-blue/90 text-white shadow-slate hover:shadow-slate-lg focus-visible:ring-accent-blue',
+        secondary: 'bg-primary-100 hover:bg-primary-200 text-neutral-700 border border-primary-300 hover:border-primary-400',
+        success: 'bg-accent-emerald hover:bg-accent-emerald/90 text-white shadow-slate hover:shadow-slate-lg focus-visible:ring-accent-emerald',
+        outline: 'border border-accent-blue text-accent-blue hover:bg-accent-blue hover:text-white focus-visible:ring-accent-blue',
+        ghost: 'text-neutral-600 hover:bg-primary-100 hover:text-neutral-700 focus-visible:ring-primary-300',
+        danger: 'bg-accent-red hover:bg-accent-red/90 text-white shadow-slate hover:shadow-slate-lg focus-visible:ring-accent-red',
         link: 'text-accent-blue hover:text-accent-blue/80 underline-offset-4 hover:underline focus-visible:ring-accent-blue',
       },
       size: {

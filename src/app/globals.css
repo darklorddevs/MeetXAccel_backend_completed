@@ -1,14 +1,14 @@
 /**
  * Global Styles
  * 
- * Global CSS imports and custom styles for the Monkai theme.
+ * Global CSS imports and custom styles for the Subtle Slate theme.
  */
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Custom CSS Variables for Monkai Theme */
+/* Custom CSS Variables for Subtle Slate Theme */
 :root {
   --font-inter: 'Inter', system-ui, sans-serif;
   --font-roboto-mono: 'Roboto Mono', monospace;
@@ -43,26 +43,28 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: theme('colors.primary.50');
+  color: theme('colors.neutral.900');
 }
 
 /* Focus styles for accessibility */
 *:focus-visible {
-  outline: 2px solid theme('colors.accent.pink');
+  outline: 2px solid theme('colors.accent.blue');
   outline-offset: 2px;
 }
 
-/* Custom scrollbar for Monkai theme */
+/* Custom scrollbar for Subtle Slate theme */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: theme('colors.primary.900');
+  background: theme('colors.primary.100');
 }
 
 ::-webkit-scrollbar-thumb {
-  background: theme('colors.primary.600');
+  background: theme('colors.primary.400');
   border-radius: 4px;
 }
 
@@ -73,18 +75,18 @@ body {
 /* Firefox scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: theme('colors.primary.600') theme('colors.primary.900');
+  scrollbar-color: theme('colors.primary.400') theme('colors.primary.100');
 }
 
 /* Selection styles */
 ::selection {
-  background-color: theme('colors.accent.pink');
-  color: white;
+  background-color: theme('colors.accent.blue');
+  color: theme('colors.neutral.50');
 }
 
 ::-moz-selection {
-  background-color: theme('colors.accent.pink');
-  color: white;
+  background-color: theme('colors.accent.blue');
+  color: theme('colors.neutral.50');
 }
 
 /* Custom animations */
@@ -198,25 +200,25 @@ body {
 .animate-shimmer {
   background: linear-gradient(
     90deg,
-    theme('colors.primary.800') 0%,
-    theme('colors.primary.700') 50%,
-    theme('colors.primary.800') 100%
+    theme('colors.primary.100') 0%,
+    theme('colors.primary.200') 50%,
+    theme('colors.primary.100') 100%
   );
   background-size: 200px 100%;
   animation: shimmer 1.5s infinite;
 }
 
 /* Custom component styles */
-.monkai-gradient {
-  background: linear-gradient(135deg, theme('colors.primary.800') 0%, theme('colors.primary.900') 100%);
+.slate-gradient {
+  background: linear-gradient(135deg, theme('colors.primary.50') 0%, theme('colors.primary.100') 100%);
 }
 
-.monkai-gradient-accent {
-  background: linear-gradient(135deg, theme('colors.accent.pink') 0%, theme('colors.accent.purple') 100%);
+.slate-gradient-accent {
+  background: linear-gradient(135deg, theme('colors.accent.blue') 0%, theme('colors.accent.indigo') 100%);
 }
 
-.monkai-text-gradient {
-  background: linear-gradient(135deg, theme('colors.accent.pink') 0%, theme('colors.accent.purple') 100%);
+.slate-text-gradient {
+  background: linear-gradient(135deg, theme('colors.accent.blue') 0%, theme('colors.accent.indigo') 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -224,9 +226,9 @@ body {
 
 /* Glass effect */
 .glass {
-  background: rgba(255, 255, 255, 0.05);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(203, 213, 225, 0.3);
 }
 
 /* Hover effects */
@@ -236,7 +238,7 @@ body {
 
 .hover-lift:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px -5px rgba(233, 69, 96, 0.2);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15);
 }
 
 /* Form styles */
@@ -245,11 +247,11 @@ body {
 }
 
 .form-label {
-  @apply block text-sm font-medium text-neutral-200;
+  @apply block text-sm font-medium text-neutral-700;
 }
 
 .form-input {
-  @apply w-full rounded-lg border border-primary-600 bg-primary-800 px-3 py-2 text-sm text-neutral-100 placeholder:text-neutral-400 focus:border-accent-pink focus:outline-none focus:ring-2 focus:ring-accent-pink focus:ring-offset-2 focus:ring-offset-primary-900;
+  @apply w-full rounded-lg border border-primary-300 bg-neutral-50 px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-500 focus:border-accent-blue focus:outline-none focus:ring-2 focus:ring-accent-blue focus:ring-offset-2 focus:ring-offset-primary-50;
 }
 
 .form-error {
@@ -257,24 +259,24 @@ body {
 }
 
 .form-help {
-  @apply text-sm text-neutral-400;
+  @apply text-sm text-neutral-600;
 }
 
 /* Table styles */
 .table-container {
-  @apply overflow-hidden rounded-lg border border-primary-700 bg-primary-800;
+  @apply overflow-hidden rounded-lg border border-primary-300 bg-neutral-50;
 }
 
 .table-header {
-  @apply bg-primary-900 border-b border-primary-700;
+  @apply bg-primary-100 border-b border-primary-300;
 }
 
 .table-row {
-  @apply border-b border-primary-700 hover:bg-primary-700/50 transition-colors;
+  @apply border-b border-primary-200 hover:bg-primary-50 transition-colors;
 }
 
 .table-cell {
-  @apply px-6 py-4 text-sm text-neutral-200;
+  @apply px-6 py-4 text-sm text-neutral-700;
 }
 
 /* Status badges */
@@ -283,28 +285,28 @@ body {
 }
 
 .status-success {
-  @apply bg-success-500/20 text-success-500;
+  @apply bg-success-50 text-success-700 border border-success-200;
 }
 
 .status-error {
-  @apply bg-error-500/20 text-error-500;
+  @apply bg-error-50 text-error-700 border border-error-200;
 }
 
 .status-warning {
-  @apply bg-warning-500/20 text-warning-500;
+  @apply bg-warning-50 text-warning-700 border border-warning-200;
 }
 
 .status-info {
-  @apply bg-info-500/20 text-info-500;
+  @apply bg-info-50 text-info-700 border border-info-200;
 }
 
 .status-neutral {
-  @apply bg-neutral-600/20 text-neutral-400;
+  @apply bg-neutral-100 text-neutral-600 border border-neutral-300;
 }
 
 /* Loading states */
 .skeleton {
-  @apply animate-pulse bg-primary-700 rounded;
+  @apply animate-pulse bg-primary-200 rounded;
 }
 
 .skeleton-text {
@@ -359,6 +361,6 @@ body {
 }
 
 /* Dark mode overrides (if needed) */
-@media (prefers-color-scheme: light) {
-  /* Light mode styles if we want to support it in the future */
+@media (prefers-color-scheme: dark) {
+  /* Dark mode styles if we want to support it in the future */
 }

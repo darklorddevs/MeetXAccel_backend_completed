@@ -64,9 +64,9 @@ export default function RegisterPage() {
         // Set field-specific errors
         Object.entries(fieldErrors).forEach(([field, messages]) => {
           if (Array.isArray(messages) && messages.length > 0) {
-            setError(field as keyof RegisterFormData, { 
-              message: messages[0] 
-            })
+            if (score <= 1) return 'bg-accent-red'
+            if (score <= 3) return 'bg-accent-orange'
+            return 'bg-accent-emerald'
           }
         })
         
@@ -153,7 +153,7 @@ export default function RegisterPage() {
           {password && (
             <div className="mt-2">
               <div className="flex items-center space-x-2">
-                <div className="flex-1 bg-primary-700 rounded-full h-2">
+                <div className="flex-1 bg-primary-200 rounded-full h-2">
                   <div
                     className={cn(
                       'h-2 rounded-full transition-all duration-300',
@@ -164,16 +164,16 @@ export default function RegisterPage() {
                 </div>
                 <span className={cn(
                   'text-xs font-medium',
-                  passwordStrength.score <= 1 && 'text-error-500',
-                  passwordStrength.score > 1 && passwordStrength.score <= 3 && 'text-warning-500',
-                  passwordStrength.score > 3 && 'text-success-500'
+                  passwordStrength.score <= 1 && 'text-accent-red',
+                  passwordStrength.score > 1 && passwordStrength.score <= 3 && 'text-accent-orange',
+                  passwordStrength.score > 3 && 'text-accent-emerald'
                 )}>
                   {getStrengthText(passwordStrength.score)}
                 </span>
               </div>
               
               {passwordStrength.feedback.length > 0 && (
-                <ul className="mt-1 text-xs text-neutral-400 space-y-1">
+                <ul className="mt-1 text-xs text-neutral-600 space-y-1">
                   {passwordStrength.feedback.map((feedback, index) => (
                     <li key={index} className="flex items-center space-x-1">
                       <span className="w-1 h-1 bg-neutral-500 rounded-full" />
@@ -203,21 +203,21 @@ export default function RegisterPage() {
             <input
               {...register('terms_accepted')}
               type="checkbox"
-              className="mt-1 h-4 w-4 text-accent-pink bg-primary-700 border-primary-600 rounded focus:ring-accent-pink focus:ring-2 focus:ring-offset-2 focus:ring-offset-primary-800"
+              className="mt-1 h-4 w-4 text-accent-blue bg-neutral-50 border-primary-400 rounded focus:ring-accent-blue focus:ring-2 focus:ring-offset-2 focus:ring-offset-primary-50"
             />
-            <span className="text-sm text-neutral-300">
+            <span className="text-sm text-neutral-600">
               I agree to the{' '}
-              <Link href="/terms" className="text-accent-pink hover:text-accent-pink/80">
+              <Link href="/terms" className="text-accent-blue hover:text-accent-blue/80">
                 Terms of Service
               </Link>
               {' '}and{' '}
-              <Link href="/privacy" className="text-accent-pink hover:text-accent-pink/80">
+              <Link href="/privacy" className="text-accent-blue hover:text-accent-blue/80">
                 Privacy Policy
               </Link>
             </span>
           </label>
           {errors.terms_accepted && (
-            <p className="mt-1 text-sm text-error-500">
+            <p className="mt-1 text-sm text-accent-red">
               {errors.terms_accepted.message}
             </p>
           )}
@@ -225,8 +225,8 @@ export default function RegisterPage() {
 
         {/* Form errors */}
         {errors.root && (
-          <div className="bg-error-500/10 border border-error-500/20 rounded-lg p-3">
-            <p className="text-sm text-error-500">
+          <div className="bg-error-50 border border-error-200 rounded-lg p-3">
+            <p className="text-sm text-error-700">
               {errors.root.message}
             </p>
           </div>
@@ -247,10 +247,10 @@ export default function RegisterPage() {
           <>
             <div className="relative">
               <div className="absolute inset-0 flex items-center">
-                <div className="w-full border-t border-primary-600" />
+                <div className="w-full border-t border-primary-300" />
               </div>
               <div className="relative flex justify-center text-sm">
-                <span className="px-2 bg-primary-800 text-neutral-400">
+                <span className="px-2 bg-neutral-50 text-neutral-500">
                   Or sign up with
                 </span>
               </div>
@@ -289,11 +289,11 @@ export default function RegisterPage() {
 
         {/* Sign in link */}
         <div className="text-center">
-          <p className="text-sm text-neutral-400">
+          <p className="text-sm text-neutral-600">
             Already have an account?{' '}
             <Link 
               href={ROUTES.login}
-              className="text-accent-pink hover:text-accent-pink/80 font-medium"
+              className="text-accent-blue hover:text-accent-blue/80 font-medium"
             >
               Sign in
             </Link>
