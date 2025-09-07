@@ -1,0 +1,98 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add --exact --dev typescript @types/react @types/node
+
+PATH: 
+  /home/.npm/_npx/8b377f6eec906bc4/node_modules/.bin:/home/project/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/lib/node-gyp-bin:/bin:/usr/bin:/usr/local/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.19.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@next%2feslint-config-next: Not found
+      at params.callback (/usr/local/lib/node_modules/yarn/dist/yarn.js:56412:18)
+      at self.callback (/usr/local/lib/node_modules/yarn/dist/yarn.js:124812:22)
+      at Request.emit (node:events:30:11034)
+      at Request.eval (/usr/local/lib/node_modules/yarn/dist/yarn.js:125784:10)
+      at Request.emit (node:events:30:11034)
+      at IncomingMessage.eval (/usr/local/lib/node_modules/yarn/dist/yarn.js:125706:12)
+      at Object.onceWrapper (node:events:30:8244)
+      at IncomingMessage.emit (node:events:30:11150)
+      at endReadableNT (node:internal/streams/readable:230:10631)
+      at processTicksAndRejections (node:internal/process/task_queues:196:1067)
+
+npm manifest: 
+  {
+    "name": "calendly-clone-frontend",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "next lint",
+      "lint:fix": "next lint --fix",
+      "type-check": "tsc --noEmit",
+      "test": "jest",
+      "test:watch": "jest --watch",
+      "test:coverage": "jest --coverage",
+      "storybook": "storybook dev -p 6006",
+      "build-storybook": "storybook build"
+    },
+    "dependencies": {
+      "next": "14.0.4",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "typescript": "^5.3.3",
+      "@tanstack/react-query": "^5.17.0",
+      "@tanstack/react-query-devtools": "^5.17.0",
+      "zustand": "^4.4.7",
+      "react-hook-form": "^7.48.2",
+      "@hookform/resolvers": "^3.3.2",
+      "zod": "^3.22.4",
+      "@headlessui/react": "^1.7.17",
+      "framer-motion": "^10.16.16",
+      "lucide-react": "^0.303.0",
+      "date-fns": "^3.0.6",
+      "axios": "^1.6.2",
+      "react-hot-toast": "^2.4.1",
+      "class-variance-authority": "^0.7.0",
+      "clsx": "^2.0.0",
+      "tailwind-merge": "^2.2.0"
+    },
+    "devDependencies": {
+      "@types/node": "^20.10.5",
+      "@types/react": "^18.2.45",
+      "@types/react-dom": "^18.2.18",
+      "@next/eslint-config-next": "14.0.4",
+      "eslint": "^8.56.0",
+      "eslint-config-prettier": "^9.1.0",
+      "eslint-plugin-prettier": "^5.1.2",
+      "prettier": "^3.1.1",
+      "prettier-plugin-tailwindcss": "^0.5.9",
+      "tailwindcss": "^3.4.0",
+      "postcss": "^8.4.32",
+      "autoprefixer": "^10.4.16",
+      "@tailwindcss/forms": "^0.5.7",
+      "@tailwindcss/typography": "^0.5.10",
+      "jest": "^29.7.0",
+      "jest-environment-jsdom": "^29.7.0",
+      "@testing-library/react": "^14.1.2",
+      "@testing-library/jest-dom": "^6.1.6",
+      "@testing-library/user-event": "^14.5.1",
+      "@storybook/nextjs": "^7.6.6",
+      "@storybook/react": "^7.6.6",
+      "@storybook/addon-essentials": "^7.6.6"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
