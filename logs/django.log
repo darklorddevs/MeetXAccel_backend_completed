@@ -1,0 +1,1007 @@
+INFO 2025-09-07 11:55:23,142 autoreload 14244 13636 Watching for file changes with StatReloader
+INFO 2025-09-07 11:55:23,650 schemas 14244 13636 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 12:08:58,262 schemas 2648 8976 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 12:08:58,652 utils 2648 8976 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 12:09:38,770 schemas 6308 1564 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 12:09:39,130 utils 6308 1564 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 12:16:04,432 schemas 11688 10276 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 12:16:04,820 utils 11688 10276 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 12:20:23,418 schemas 11976 13632 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 12:20:23,776 utils 11976 13632 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 12:24:21,209 schemas 2320 10860 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 12:24:21,585 utils 2320 10860 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 12:25:01,339 schemas 6632 12596 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 12:25:01,720 utils 6632 12596 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 12:27:44,376 schemas 6688 13604 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 12:28:48,911 schemas 8640 13604 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 12:30:41,826 schemas 6308 2880 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 12:37:11,919 schemas 8196 9848 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 12:40:06,389 schemas 6324 13852 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:05:36,506 schemas 12632 14420 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:08:28,826 schemas 13344 9452 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:09:37,616 schemas 6856 1936 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:17:20,787 schemas 5636 13700 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:18:21,601 schemas 14988 14940 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:18:30,242 schemas 14520 15676 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:19:42,047 schemas 8196 14664 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:20:10,108 autoreload 15020 15140 Watching for file changes with StatReloader
+INFO 2025-09-07 13:20:10,462 schemas 15020 15140 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:21:29,381 autoreload 9864 16288 Watching for file changes with StatReloader
+INFO 2025-09-07 13:21:29,710 schemas 9864 16288 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:22:17,604 autoreload 5484 9220 Watching for file changes with StatReloader
+INFO 2025-09-07 13:22:18,018 schemas 5484 9220 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:22:34,049 autoreload 15140 14972 Watching for file changes with StatReloader
+INFO 2025-09-07 13:22:34,431 schemas 15140 14972 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:22:48,233 autoreload 12832 14260 Watching for file changes with StatReloader
+INFO 2025-09-07 13:22:48,593 schemas 12832 14260 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:23:09,162 autoreload 3180 16316 Watching for file changes with StatReloader
+INFO 2025-09-07 13:23:09,512 schemas 3180 16316 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:25:21,901 autoreload 16296 12844 Watching for file changes with StatReloader
+INFO 2025-09-07 13:25:22,268 schemas 16296 12844 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:25:58,154 autoreload 16084 15460 Watching for file changes with StatReloader
+INFO 2025-09-07 13:25:58,510 schemas 16084 15460 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:26:06,828 autoreload 16168 14636 Watching for file changes with StatReloader
+INFO 2025-09-07 13:26:07,156 schemas 16168 14636 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:26:28,718 autoreload 15736 14724 Watching for file changes with StatReloader
+INFO 2025-09-07 13:26:29,046 schemas 15736 14724 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:27:32,124 schemas 15680 13624 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:27:52,591 schemas 14908 9416 Resource 'XMLSchema.xsd' is already loaded
+INFO 2025-09-07 13:39:05,954 schemas 16224 1820 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:39:06,555 utils 16224 1820 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:39:24,229 schemas 9848 10052 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:39:24,652 utils 9848 10052 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:40:27,277 autoreload 15492 1904 Watching for file changes with StatReloader
+INFO 2025-09-07 13:40:27,884 schemas 15492 1904 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:40:28,657 utils 15492 1904 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:41:09,211 schemas 3688 10648 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:41:09,568 utils 3688 10648 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:41:36,333 autoreload 14768 5868 Watching for file changes with StatReloader
+INFO 2025-09-07 13:41:36,634 schemas 14768 5868 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:41:37,031 utils 14768 5868 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:41:39,609 basehttp 14768 10236 "GET /admin HTTP/1.1" 301 0
+INFO 2025-09-07 13:41:39,656 basehttp 14768 12052 "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-09-07 13:41:39,847 basehttp 14768 12052 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+INFO 2025-09-07 13:41:39,905 basehttp 14768 12052 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-09-07 13:41:39,911 basehttp 14768 12992 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-09-07 13:41:39,911 basehttp 14768 13896 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-09-07 13:41:39,913 basehttp 14768 15932 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-09-07 13:41:39,922 basehttp 14768 8568 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-09-07 13:41:39,967 basehttp 14768 2324 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-09-07 13:41:39,967 basehttp 14768 8568 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-09-07 13:41:40,052 basehttp 14768 8568 "GET /favicon.ico HTTP/1.1" 301 0
+ERROR 2025-09-07 13:41:40,308 log 14768 2324 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1526, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1829, in get
+    return self.execute_command("GET", name, keys=[name])
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1528, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1574, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 753, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:41:40,314 basehttp 14768 2324 "GET /favicon.ico/ HTTP/1.1" 500 173758
+INFO 2025-09-07 13:41:51,986 schemas 14640 7456 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:41:52,367 utils 14640 7456 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:46:50,232 autoreload 5520 15140 Watching for file changes with StatReloader
+INFO 2025-09-07 13:46:50,560 schemas 5520 15140 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:46:50,909 utils 5520 15140 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:47:07,934 schemas 14020 15976 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:47:08,346 utils 14020 15976 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:47:55,004 autoreload 3688 8176 Watching for file changes with StatReloader
+INFO 2025-09-07 13:47:55,288 schemas 3688 8176 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:47:55,643 utils 3688 8176 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:48:07,644 basehttp 3688 600 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4170
+INFO 2025-09-07 13:48:07,674 basehttp 3688 600 "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-09-07 13:48:07,679 basehttp 3688 2896 "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-09-07 13:48:07,684 basehttp 3688 600 "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-09-07 13:48:07,684 basehttp 3688 10276 "GET /static/admin/css/responsive.css HTTP/1.1" 200 16565
+INFO 2025-09-07 13:48:07,684 basehttp 3688 3660 "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-09-07 13:48:07,685 basehttp 3688 1388 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-09-07 13:48:07,691 basehttp 3688 1388 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-09-07 13:48:07,741 basehttp 3688 1388 "GET /favicon.ico HTTP/1.1" 301 0
+ERROR 2025-09-07 13:48:07,865 log 3688 3660 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1526, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1829, in get
+    return self.execute_command("GET", name, keys=[name])
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1528, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1574, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 753, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:48:07,868 basehttp 3688 3660 "GET /favicon.ico/ HTTP/1.1" 500 174023
+ERROR 2025-09-07 13:48:13,338 backends 3688 3660 No organization domain found for OIDC authentication
+INFO 2025-09-07 13:48:13,341 basehttp 3688 3660 "POST /admin/login/?next=/admin/ HTTP/1.1" 200 4351
+ERROR 2025-09-07 13:48:13,440 log 3688 3660 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1526, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1829, in get
+    return self.execute_command("GET", name, keys=[name])
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1528, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1574, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 753, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:48:13,445 basehttp 3688 3660 "GET /favicon.ico/ HTTP/1.1" 500 173758
+INFO 2025-09-07 13:48:17,923 basehttp 3688 15708 "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-09-07 13:48:18,004 basehttp 3688 15708 "GET /admin/ HTTP/1.1" 200 49158
+INFO 2025-09-07 13:48:18,051 basehttp 3688 13732 "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+INFO 2025-09-07 13:48:18,052 basehttp 3688 15708 "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-09-07 13:48:18,052 basehttp 3688 6952 "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-09-07 13:48:18,052 basehttp 3688 16248 "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+ERROR 2025-09-07 13:48:18,201 log 3688 16248 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1526, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1829, in get
+    return self.execute_command("GET", name, keys=[name])
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1528, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1574, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 753, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:48:18,205 basehttp 3688 16248 "GET /favicon.ico/ HTTP/1.1" 500 174100
+INFO 2025-09-07 13:48:46,337 basehttp 3688 13280 "GET /admin/account/emailaddress/ HTTP/1.1" 200 41376
+INFO 2025-09-07 13:48:46,379 basehttp 3688 13280 "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-09-07 13:48:46,396 basehttp 3688 2560 "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-09-07 13:48:46,414 basehttp 3688 15020 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:48:46,422 basehttp 3688 15920 "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-09-07 13:48:46,422 basehttp 3688 13280 "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-09-07 13:48:46,434 basehttp 3688 14228 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-09-07 13:48:46,440 basehttp 3688 2560 "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-09-07 13:48:46,454 basehttp 3688 15020 "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-09-07 13:48:46,469 basehttp 3688 15020 "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-09-07 13:48:46,498 basehttp 3688 15976 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-09-07 13:48:46,527 basehttp 3688 15976 "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-09-07 13:48:46,561 basehttp 3688 15920 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-09-07 13:48:46,594 basehttp 3688 15920 "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+ERROR 2025-09-07 13:48:46,677 log 3688 15920 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1526, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1829, in get
+    return self.execute_command("GET", name, keys=[name])
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1528, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1574, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 753, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:48:46,681 basehttp 3688 15920 "GET /favicon.ico/ HTTP/1.1" 500 174121
+INFO 2025-09-07 13:48:48,427 basehttp 3688 15920 "GET /admin/ HTTP/1.1" 200 49158
+ERROR 2025-09-07 13:48:48,536 log 3688 15920 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1526, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1829, in get
+    return self.execute_command("GET", name, keys=[name])
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1528, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1574, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 753, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:48:48,546 basehttp 3688 15920 "GET /favicon.ico/ HTTP/1.1" 500 174100
+INFO 2025-09-07 13:51:52,776 autoreload 6624 2020 Watching for file changes with StatReloader
+INFO 2025-09-07 13:51:53,086 schemas 6624 676 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:51:53,483 utils 6624 2020 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:52:25,967 basehttp 6624 8820 "GET /admin/ HTTP/1.1" 200 49158
+INFO 2025-09-07 13:52:25,986 basehttp 6624 8820 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:25,992 basehttp 6624 4100 "GET /static/admin/css/dashboard.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:25,992 basehttp 6624 2392 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:25,993 basehttp 6624 12772 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:25,993 basehttp 6624 8820 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:25,993 basehttp 6624 6488 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:26,053 basehttp 6624 6488 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+ERROR 2025-09-07 13:52:26,218 log 6624 6488 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1526, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1829, in get
+    return self.execute_command("GET", name, keys=[name])
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1528, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1574, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 753, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:52:26,222 basehttp 6624 6488 "GET /favicon.ico/ HTTP/1.1" 500 174100
+INFO 2025-09-07 13:52:44,120 basehttp 6624 16348 "GET /admin/availability/availabilityrule/ HTTP/1.1" 200 42555
+INFO 2025-09-07 13:52:44,143 basehttp 6624 16348 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:44,151 basehttp 6624 14608 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:44,152 basehttp 6624 15248 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:44,154 basehttp 6624 14196 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:44,157 basehttp 6624 15364 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:44,159 basehttp 6624 14608 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:44,159 basehttp 6624 15248 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:44,159 basehttp 6624 14060 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:44,161 basehttp 6624 14196 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:44,165 basehttp 6624 14060 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-09-07 13:52:44,168 basehttp 6624 16348 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:52:44,168 basehttp 6624 14060 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+ERROR 2025-09-07 13:52:44,293 log 6624 14060 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1526, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1829, in get
+    return self.execute_command("GET", name, keys=[name])
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 621, in execute_command
+    return self._execute_command(*args, **options)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 627, in _execute_command
+    conn = self.connection or pool.get_connection()
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\utils.py", line 195, in wrapper
+    return func(*args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1528, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1574, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 753, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:52:44,297 basehttp 6624 14060 "GET /favicon.ico/ HTTP/1.1" 500 174130
+INFO 2025-09-07 13:54:50,971 autoreload 13916 13384 Watching for file changes with StatReloader
+INFO 2025-09-07 13:54:51,288 schemas 13916 13732 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:54:51,635 utils 13916 13384 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:54:57,600 basehttp 13916 14748 "GET /admin/availability/blockedtime/ HTTP/1.1" 200 43301
+INFO 2025-09-07 13:54:57,618 basehttp 13916 14748 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,626 basehttp 13916 14880 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,626 basehttp 13916 14748 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,633 basehttp 13916 7104 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,635 basehttp 13916 14748 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,635 basehttp 13916 14880 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,635 basehttp 13916 14516 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,636 basehttp 13916 14864 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,636 basehttp 13916 7104 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,640 basehttp 13916 14516 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,642 basehttp 13916 14748 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,643 basehttp 13916 14880 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,643 basehttp 13916 14864 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,644 basehttp 13916 7104 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,649 basehttp 13916 7104 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,650 basehttp 13916 3812 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:54:57,653 basehttp 13916 3812 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:54:57,654 basehttp 13916 7104 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+ERROR 2025-09-07 13:54:57,797 log 13916 7104 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1450, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1801, in get
+    return self.execute_command("GET", name)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 1266, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1452, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1492, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 956, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:54:57,800 basehttp 13916 7104 "GET /favicon.ico/ HTTP/1.1" 500 163813
+INFO 2025-09-07 13:55:03,327 basehttp 13916 7104 "GET /admin/availability/availabilityrule/ HTTP/1.1" 200 42555
+INFO 2025-09-07 13:55:03,352 basehttp 13916 7104 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-09-07 13:55:03,456 log 13916 7104 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1450, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1801, in get
+    return self.execute_command("GET", name)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 1266, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1452, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1492, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 956, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:55:03,462 basehttp 13916 7104 "GET /favicon.ico/ HTTP/1.1" 500 163818
+INFO 2025-09-07 13:55:04,657 basehttp 13916 5332 "GET /admin/availability/recurringblockedtime/ HTTP/1.1" 200 42588
+INFO 2025-09-07 13:55:04,686 basehttp 13916 5332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-09-07 13:55:04,774 log 13916 5332 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1450, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1801, in get
+    return self.execute_command("GET", name)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 1266, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1452, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1492, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 956, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:55:04,780 basehttp 13916 5332 "GET /favicon.ico/ HTTP/1.1" 500 163822
+INFO 2025-09-07 13:55:06,583 basehttp 13916 5332 "GET /admin/django_celery_results/groupresult/ HTTP/1.1" 200 41666
+INFO 2025-09-07 13:55:06,610 basehttp 13916 5332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-09-07 13:55:06,697 log 13916 5332 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1450, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1801, in get
+    return self.execute_command("GET", name)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 1266, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1452, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1492, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 956, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:55:06,700 basehttp 13916 5332 "GET /favicon.ico/ HTTP/1.1" 500 163822
+INFO 2025-09-07 13:55:07,179 basehttp 13916 5332 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 42381
+INFO 2025-09-07 13:55:07,206 basehttp 13916 5332 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+ERROR 2025-09-07 13:55:07,299 log 13916 5332 Internal Server Error: /favicon.ico/
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1450, in get_connection
+    connection = self._available_connections.pop()
+IndexError: pop from empty list
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\decorators\csrf.py", line 65, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\views\generic\base.py", line 105, in view
+    return self.dispatch(request, *args, **kwargs)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 515, in dispatch
+    response = self.handle_exception(exc)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 475, in handle_exception
+    self.raise_uncaught_exception(exc)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 486, in raise_uncaught_exception
+    raise exc
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 503, in dispatch
+    self.initial(request, *args, **kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 422, in initial
+    self.check_throttles(request)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\views.py", line 365, in check_throttles
+    if not throttle.allow_request(request, self):
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\rest_framework\throttling.py", line 123, in allow_request
+    self.history = self.cache.get(self.key, [])
+                   ~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 188, in get
+    return self._cache.get(key, default)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\django\core\cache\backends\redis.py", line 100, in get
+    value = client.get(key)
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\commands\core.py", line 1801, in get
+    return self.execute_command("GET", name)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\client.py", line 1266, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+                              ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1452, in get_connection
+    connection = self.make_connection()
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 1492, in make_connection
+    return self.connection_class(**self.connection_kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\venv\Lib\site-packages\redis\connection.py", line 956, in __init__
+    super().__init__(**kwargs)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^
+TypeError: AbstractConnection.__init__() got an unexpected keyword argument 'CLIENT_CLASS'
+ERROR 2025-09-07 13:55:07,304 basehttp 13916 5332 "GET /favicon.ico/ HTTP/1.1" 500 163821
+INFO 2025-09-07 13:56:27,829 autoreload 13916 13384 E:\meetXcelerate\project-bolt-sb1-uccmnyzu (3)\project\backend\config\settings\base.py changed, reloading.
+INFO 2025-09-07 13:56:29,213 autoreload 8956 14124 Watching for file changes with StatReloader
+INFO 2025-09-07 13:56:29,508 schemas 8956 5860 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:56:29,924 utils 8956 14124 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:56:41,719 autoreload 15864 13620 Watching for file changes with StatReloader
+INFO 2025-09-07 13:56:42,016 schemas 15864 13640 Resource 'XMLSchema.xsd' is already loaded
+WARNING 2025-09-07 13:56:42,362 utils 15864 13620 django-csp could not be found, not updating Content-Security-Policy. Please make sure CSP is configured. This can be done by your reverse proxy, django-csp or a custom CSP handler via SAML_CSP_HANDLER. See https://djangosaml2.readthedocs.io/contents/security.html#content-security-policy for more information. This warning can be disabled by setting `SAML_CSP_HANDLER=''` in your settings.
+INFO 2025-09-07 13:56:54,657 basehttp 15864 7500 "GET /admin/account/emailaddress/ HTTP/1.1" 200 41376
+INFO 2025-09-07 13:56:54,688 basehttp 15864 15580 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,688 basehttp 15864 7500 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,693 basehttp 15864 13464 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,693 basehttp 15864 7572 "GET /static/admin/css/changelists.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,696 basehttp 15864 7500 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,696 basehttp 15864 15404 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,696 basehttp 15864 15580 "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,698 basehttp 15864 13464 "GET /static/admin/js/core.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,703 basehttp 15864 7572 "GET /static/admin/js/jquery.init.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,705 basehttp 15864 7500 "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,706 basehttp 15864 15580 "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,708 basehttp 15864 15404 "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,710 basehttp 15864 13464 "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,710 basehttp 15864 7572 "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,714 basehttp 15864 7572 "GET /static/admin/img/search.svg HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,717 basehttp 15864 3176 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:56:54,717 basehttp 15864 7572 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2025-09-07 13:56:54,720 basehttp 15864 3176 "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+ERROR 2025-09-07 13:56:54,833 views 15864 3176 Error loading public organizer page: No User matches the given query.
+WARNING 2025-09-07 13:56:54,834 log 15864 3176 Not Found: /favicon.ico/
+WARNING 2025-09-07 13:56:54,835 basehttp 15864 3176 "GET /favicon.ico/ HTTP/1.1" 404 31
+INFO 2025-09-07 13:56:55,598 basehttp 15864 3176 "GET /admin/authtoken/tokenproxy/ HTTP/1.1" 200 40442
+INFO 2025-09-07 13:56:56,590 basehttp 15864 3176 "GET /admin/availability/blockedtime/ HTTP/1.1" 200 43301
+INFO 2025-09-07 13:56:56,620 basehttp 15864 3176 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:57:03,541 basehttp 15864 3176 "GET /admin/availability/recurringblockedtime/ HTTP/1.1" 200 42588
+INFO 2025-09-07 13:57:03,571 basehttp 15864 3176 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:57:05,013 basehttp 15864 796 "GET /admin/availability/dateoverriderule/ HTTP/1.1" 200 42804
+INFO 2025-09-07 13:57:05,036 basehttp 15864 796 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:57:05,736 basehttp 15864 796 "GET /admin/availability/buffertime/ HTTP/1.1" 200 40457
+INFO 2025-09-07 13:57:05,766 basehttp 15864 796 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:57:11,953 basehttp 15864 796 "GET /admin/availability/recurringblockedtime/ HTTP/1.1" 200 42588
+INFO 2025-09-07 13:57:11,986 basehttp 15864 796 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:57:12,698 basehttp 15864 796 "GET /admin/django_celery_results/groupresult/ HTTP/1.1" 200 41666
+INFO 2025-09-07 13:57:12,727 basehttp 15864 796 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:57:13,280 basehttp 15864 796 "GET /admin/django_celery_results/taskresult/ HTTP/1.1" 200 42381
+INFO 2025-09-07 13:57:13,314 basehttp 15864 796 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-09-07 13:57:19,482 basehttp 15864 15248 "GET /admin/contacts/contact/ HTTP/1.1" 200 43008
+INFO 2025-09-07 13:57:19,508 basehttp 15864 15248 "GET /admin/jsi18n/ HTTP/1.1" 200 3342
