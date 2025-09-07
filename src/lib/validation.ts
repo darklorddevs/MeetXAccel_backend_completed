@@ -296,6 +296,22 @@ export const invitationResponseSchema = z.object({
   path: ['password_confirm'],
 })
 
+// Role management schemas
+export const roleCreateSchema = z.object({
+  name: z.string().min(1, 'Role name is required').max(50, 'Role name too long'),
+  role_type: z.enum(['admin', 'organizer', 'team_member', 'billing_manager', 'viewer']),
+  description: z.string().max(500, 'Description too long').optional(),
+  parent: z.string().optional(),
+  role_permissions: z.array(z.string()),
+})
+
+export const userUpdateSchema = z.object({
+  first_name: z.string().min(1, 'First name is required').max(30, 'First name too long').optional(),
+  last_name: z.string().min(1, 'Last name is required').max(30, 'Last name too long').optional(),
+  account_status: z.enum(['active', 'inactive', 'suspended', 'pending_verification', 'password_expired', 'password_expired_grace_period']).optional(),
+  is_active: z.boolean().optional(),
+})
+
 // Custom Question Schema
 export const customQuestionSchema = z.object({
   question_text: z.string().min(1, 'Question text is required').max(500, 'Question too long'),
@@ -371,6 +387,8 @@ export type MfaSetupData = z.infer<typeof mfaSetupSchema>
 export type MfaVerificationData = z.infer<typeof mfaVerificationSchema>
 export type InvitationCreateData = z.infer<typeof invitationCreateSchema>
 export type InvitationResponseData = z.infer<typeof invitationResponseSchema>
+export type RoleCreateData = z.infer<typeof roleCreateSchema>
+export type UserUpdateData = z.infer<typeof userUpdateSchema>
 export type CustomQuestionData = z.infer<typeof customQuestionSchema>
 export type SearchFiltersData = z.infer<typeof searchFiltersSchema>
 export type DateRangeData = z.infer<typeof dateRangeSchema>

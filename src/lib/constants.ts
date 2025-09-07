@@ -84,7 +84,21 @@ export const ROUTES = {
   // Admin
   admin: '/admin',
   users: '/admin/users',
+  userDetail: (id: string) => `/admin/users/${id}`,
+  createUser: '/admin/users/create',
+  roles: '/admin/roles',
+  permissions: '/admin/permissions',
   systemSettings: '/admin/settings',
+
+  // Security
+  securitySettings: '/settings/security',
+  mfaSettings: '/settings/security/mfa',
+  sessions: '/settings/security/sessions',
+  auditLogs: '/settings/security/audit-logs',
+
+  // Invitations
+  invitations: '/invitations',
+  invitationResponse: '/invitation',
 
   // Public booking pages
   publicOrganizer: (slug: string) => `/${slug}`,

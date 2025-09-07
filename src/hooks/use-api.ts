@@ -242,6 +242,228 @@ export const useContacts = (filters?: any) => {
   )
 }
 
+// User management hooks
+export const useUsers = (filters?: any) => {
+  return useApiQuery(
+    ['users', filters],
+    () => api.get('/users/', { params: filters })
+  )
+}
+
+export const useUser = (id: string) => {
+  return useApiQuery(
+    ['users', id],
+    () => api.get(`/users/${id}/`),
+    { enabled: !!id }
+  )
+}
+
+export const useUpdateUser = () => {
+  return useApiMutation(
+    (data: { id: string; [key: string]: any }) => 
+      api.patch(`/users/${data.id}/`, data),
+    {
+      invalidateQueries: [['users']],
+      successMessage: 'User updated successfully!',
+    }
+  )
+}
+
+export const useDeleteUser = () => {
+  return useApiMutation(
+    (id: string) => api.delete(`/users/${id}/`),
+    {
+      invalidateQueries: [['users']],
+      successMessage: 'User deleted successfully!',
+    }
+  )
+}
+
+export const useUpdateProfile = () => {
+  return useApiMutation(
+    (data: any) => api.patch('/users/profile/', data),
+    {
+      invalidateQueries: [queryKeys.currentUser, queryKeys.userProfile],
+      successMessage: 'Profile updated successfully!',
+    }
+  )
+}
+
+// Role and permission hooks
+export const useRoles = () => {
+  return useApiQuery(
+    ['roles'],
+    () => api.get('/users/roles/')
+  )
+}
+
+export const usePermissions = () => {
+  return useApiQuery(
+    ['permissions'],
+    () => api.get('/users/permissions/')
+  )
+}
+
+export const useCreateRole = () => {
+  return useApiMutation(
+    (data: any) => api.post('/users/roles/', data),
+    {
+      invalidateQueries: [['roles']],
+      successMessage: 'Role created successfully!',
+    }
+  )
+}
+
+export const useUpdateRole = () => {
+  return useApiMutation(
+    (data: { id: string; [key: string]: any }) => 
+      api.patch(`/users/roles/${data.id}/`, data),
+    {
+      invalidateQueries: [['roles']],
+      successMessage: 'Role updated successfully!',
+    }
+  )
+}
+
+export const useDeleteRole = () => {
+  return useApiMutation(
+    (id: string) => api.delete(`/users/roles/${id}/`),
+    {
+      invalidateQueries: [['roles']],
+      successMessage: 'Role deleted successfully!',
+    }
+  )
+}
+
+// Invitation hooks
+export const useInvitations = () => {
+  return useApiQuery(
+    ['invitations'],
+    () => api.get('/users/invitations/')
+  )
+}
+
+export const useInvitationDetails = (token: string | null) => {
+  return useApiQuery(
+    ['invitation', token],
+    () => api.get(`/users/invitations/details/?token=${token}`),
+    { enabled: !!token }
+  )
+}
+
+export const useCreateInvitation = () => {
+  return useApiMutation(
+    (data: any) => api.post('/users/invitations/', data),
+    {
+      invalidateQueries: [['invitations']],
+      successMessage: 'Invitation sent successfully!',
+    }
+  )
+}
+
+export const useRespondToInvitation = () => {
+  return useApiMutation(
+    (data: any) => api.post('/users/invitations/respond/', data),
+    {
+      showSuccessToast: false, // Handle in component
+    }
+  )
+}
+
+export const useDeleteInvitation = () => {
+  return useApiMutation(
+    (id: string) => api.delete(`/users/invitations/${id}/`),
+    {
+      invalidateQueries: [['invitations']],
+      successMessage: 'Invitation deleted successfully!',
+    }
+  )
+}
+
+// MFA hooks
+export const useMfaDevices = () => {
+  return useApiQuery(
+    ['mfa', 'devices'],
+    () => api.get('/users/mfa/devices/')
+  )
+}
+
+export const useSetupMfa = () => {
+  return useApiMutation(
+    (data: any) => api.post('/users/mfa/setup/', data),
+    {
+      showSuccessToast: false, // Handle in component
+    }
+  )
+}
+
+export const useVerifyMfaSetup = () => {
+  return useApiMutation(
+    (data: any) => api.post('/users/mfa/verify/', data),
+    {
+      showSuccessToast: false, // Handle in component
+    }
+  )
+}
+
+export const useDisableMfa = () => {
+  return useApiMutation(
+    () => api.post('/users/mfa/disable/'),
+    {
+      invalidateQueries: [['mfa']],
+      successMessage: 'MFA disabled successfully!',
+    }
+  )
+}
+
+export const useRegenerateBackupCodes = () => {
+  return useApiMutation(
+    () => api.post('/users/mfa/backup-codes/regenerate/'),
+    {
+      showSuccessToast: false, // Handle in component
+    }
+  )
+}
+
+// Session management hooks
+export const useUserAuditLogs = (userId?: string) => {
+  return useApiQuery(
+    ['users', userId, 'audit-logs'],
+    () => api.get(userId ? `/users/${userId}/audit-logs/` : '/users/audit-logs/'),
+    { enabled: !!userId }
+  )
+}
+
+export const useRevokeSession = () => {
+  return useApiMutation(
+    (sessionId: string) => api.post(`/users/sessions/${sessionId}/revoke/`),
+    {
+      invalidateQueries: [queryKeys.userSessions],
+      successMessage: 'Session revoked successfully!',
+    }
+  )
+}
+
+export const useRevokeAllSessions = () => {
+  return useApiMutation(
+    () => api.post('/users/sessions/revoke-all/'),
+    {
+      invalidateQueries: [queryKeys.userSessions],
+      successMessage: 'All sessions revoked successfully!',
+    }
+  )
+}
+
+// Password management hooks
+export const useChangePassword = () => {
+  return useApiMutation(
+    (data: any) => api.post('/users/change-password/', data),
+    {
+      showSuccessToast: false, // Handle in component
+    }
+  )
+}
+
 // Utility hooks for common patterns
 export const useInvalidateQueries = () => {
   const queryClient = useQueryClient()

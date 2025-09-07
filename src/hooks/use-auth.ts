@@ -37,10 +37,16 @@ export const usePermissions = () => {
     isAdmin: hasRole('admin'),
     isOrganizer: hasRole('organizer'),
     canViewUsers: hasPermission('can_view_users'),
+    canCreateUsers: hasPermission('can_create_users'),
+    canEditUsers: hasPermission('can_edit_users'),
+    canDeleteUsers: hasPermission('can_delete_users'),
     canCreateEvents: hasPermission('can_create_events'),
     canManageBookings: hasPermission('can_manage_bookings'),
+    canManageRoles: hasPermission('can_manage_roles'),
+    canViewAdmin: hasPermission('can_view_admin'),
     canViewBilling: hasPermission('can_view_billing'),
     canManageIntegrations: hasPermission('can_manage_integrations'),
+    canManageSso: hasPermission('can_manage_sso'),
   }
 }
 

@@ -160,7 +160,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         },
         {
           name: 'Security',
-          href: '/settings/security',
+          href: ROUTES.securitySettings,
           icon: Shield,
         },
         {
@@ -186,6 +186,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
           href: ROUTES.users,
           icon: Users,
           permission: 'can_view_users',
+        },
+        {
+          name: 'Roles',
+          href: ROUTES.roles,
+          icon: Shield,
+          permission: 'can_manage_roles',
+        },
+        {
+          name: 'Permissions',
+          href: ROUTES.permissions,
+          icon: Key,
+          permission: 'can_view_admin',
         },
         {
           name: 'System Settings',
